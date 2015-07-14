@@ -18,8 +18,7 @@
 			#query-form textarea{
 				height:200px;
 				width:600px;
-			}
-		</style>
+			}</style>
 		<xf:model
 			id="rdf-model">
 			<xf:instance
@@ -27,7 +26,7 @@
 				<cwb:data>
 					<query
 						xmlns="">
-<![CDATA[
+						<![CDATA[
 CONSTRUCT {
   <http://dbpedia.org/resource/Joan_Sebastian> ?p ?o .
 }
@@ -75,13 +74,16 @@ ORDER BY ?p
 				class="header">
 				<h1
 					about="http://example.org/cwb"
-					property="bf:title">Cataloger's Workbench</h1>
-				<div class="input">
-					<h3>Query DBpedia SPARQL endpoint</h3>
-					<xf:textarea id="query-form" ref="instance('sparql-query')/query">
-						<xf:label/>
+					property="bf:title">Cataloger's Workbench sandbox</h1>
+				<div
+					class="input">
+					<h3>Query DBpedia SPARQL endpoint (demo)</h3>
+					<xf:textarea
+						id="query-form"
+						ref="instance('sparql-query')/query">
+						<xf:label></xf:label>
 					</xf:textarea>
-				</div>		
+				</div>
 				<xf:trigger
 					id="update-resources">
 					<xf:label>Query</xf:label>
@@ -91,7 +93,7 @@ ORDER BY ?p
 							submission="rq"></xf:send>
 					</xf:action>
 				</xf:trigger>
-			</div>				
+			</div>
 			<xf:group
 				id="query-output">
 				<pre>
