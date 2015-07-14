@@ -1,0 +1,85 @@
+<?xml-stylesheet href="http://pulcams.github.io/xsltforms/build/xsltforms.xsl" type="text/xsl"?><?xsltforms-options debug="no"?><?css-conversion no?><?xml-model href="http://www.oxygenxml.com/1999/xhtml/xhtml-xforms.nvdl" schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?>
+<html
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:cwb="http://example.org/cwb/"
+	xmlns:ev="http://www.w3.org/2001/xml-events"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:xf="http://www.w3.org/2002/xforms"
+	xmlns:xi="http://www.w3.org/2001/XInclude"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<head>
+		<meta
+			content="IE=edge"
+			http-equiv="X-UA-Compatible" />
+		<title>Cataloger's Workbench Editor</title>
+		<xf:model
+			id="rdf-model">
+			<xf:instance
+				id="sparql-query">
+				<cwb:data>
+					<query
+						xmlns="">
+						<![CDATA[
+                            DESCRIBE <http://dbpedia.org/resource/Princeton_University_Library> WHERE {?s ?p ?o} LIMIT 1
+                        ]]>
+					</query>
+				</cwb:data>
+			</xf:instance>
+			<xf:instance
+				id="result">
+				<cwb:data>
+					<cwb:result>
+						<cwb:replace></cwb:replace>
+					</cwb:result>
+				</cwb:data>
+			</xf:instance>
+			<xf:submission
+				cdata-section-elements="cwb:replace"
+				encoding="UTF-8"
+				id="rq"
+				instance="result"
+				method="get"
+				ref="instance('sparql-query')/*"
+				replace="text"
+				resource="http://dbpedia.org/sparql"
+				serialize="none"
+				targetref="cwb:result/cwb:replace">
+				<xf:header
+					combine="replace">
+					<xf:name>Accept</xf:name>
+					<xf:value>application/ld+json; q=1.0, text/turtle;
+						q=0.5</xf:value>
+				</xf:header>
+			</xf:submission>
+		</xf:model>
+	</head>
+	<body
+		prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#  bf: http://bibframe.org/vocab/">
+		<div
+			class="container">
+			<div
+				class="header">
+				<h1
+					about="http://example.org/cwb"
+					property="bf:title">Cataloger's Workbench</h1>
+				<xf:trigger
+					id="update-resources">
+					<xf:label>Query</xf:label>
+					<xf:action
+						ev:event="DOMActivate">
+						<xf:send
+							submission="rq"></xf:send>
+					</xf:action>
+				</xf:trigger>
+			</div>
+			<xf:group
+				id="query-output">
+				<pre>
+                    <xf:output value="instance('result')/cwb:result/cwb:replace"></xf:output>
+                </pre>
+			</xf:group>
+		</div>
+	</body>
+</html>
