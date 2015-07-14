@@ -54,10 +54,10 @@ ORDER BY ?p
 				instance="result"
 				method="get"
 				ref="instance('sparql-query')/*"
-				replace="text"
-				resource="http://dbpedia.org/sparql"
+				replace="text"				
 				serialize="none"
 				targetref="cwb:result/cwb:replace">
+				<xf:resource value="concat('http://dbpedia.org/sparql?query=', normalize-space(instance('sparql-query')/query))"></xf:resource>
 				<xf:header
 					combine="replace">
 					<xf:name>Accept</xf:name>
