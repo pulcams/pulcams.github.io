@@ -14,6 +14,12 @@
 			content="IE=edge"
 			http-equiv="X-UA-Compatible" />
 		<title>Cataloger's Workbench Editor</title>
+		<style type="text/css">
+			#query-form textarea{
+				height:200px;
+				width:600px;
+			}
+		</style>
 		<xf:model
 			id="rdf-model">
 			<xf:instance
@@ -21,16 +27,16 @@
 				<cwb:data>
 					<query
 						xmlns="">
-						<![CDATA[
-                            CONSTRUCT {
-							  <http://dbpedia.org/resource/Caridad_Svich> ?p ?o .
-							}
-							WHERE
-							{
-							    <http://dbpedia.org/resource/Caridad_Svich> ?p ?o .
-							}
-							ORDER BY ?p
-                        ]]>
+<![CDATA[
+CONSTRUCT {
+  <http://dbpedia.org/resource/Caridad_Svich> ?p ?o .
+}
+WHERE
+{
+    <http://dbpedia.org/resource/Caridad_Svich> ?p ?o .
+}
+ORDER BY ?p
+]]>
 					</query>
 				</cwb:data>
 			</xf:instance>
@@ -43,7 +49,7 @@
 				</cwb:data>
 			</xf:instance>
 			<xf:submission
-				cdata-section-elements="cwb:replace"
+				cdata-section-elements="query"
 				encoding="UTF-8"
 				id="rq"
 				instance="result"
@@ -70,6 +76,11 @@
 				<h1
 					about="http://example.org/cwb"
 					property="bf:title">Cataloger's Workbench</h1>
+				<div class="input">
+					<xf:textarea id="query-form" ref="instance('sparql-query')/query">
+						<xf:label/>
+					</xf:textarea>
+				</div>		
 				<xf:trigger
 					id="update-resources">
 					<xf:label>Query</xf:label>
@@ -79,7 +90,7 @@
 							submission="rq"></xf:send>
 					</xf:action>
 				</xf:trigger>
-			</div>
+			</div>				
 			<xf:group
 				id="query-output">
 				<pre>
