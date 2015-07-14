@@ -22,7 +22,14 @@
 					<query
 						xmlns="">
 						<![CDATA[
-                            DESCRIBE <http://dbpedia.org/resource/Princeton_University_Library> WHERE {?s ?p ?o} LIMIT 1
+                            CONSTRUCT {
+							  <http://dbpedia.org/resource/Caridad_Svich> ?p ?o .
+							}
+							WHERE
+							{
+							    <http://dbpedia.org/resource/Caridad_Svich> ?p ?o .
+							}
+							ORDER BY ?p
                         ]]>
 					</query>
 				</cwb:data>
