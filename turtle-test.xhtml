@@ -1,0 +1,34 @@
+<html
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:bf="http://bibframe.org/vocab/"
+	xmlns:cwb="http://example.org/cwb/"
+	xmlns:cwb-search="http://example.org/cwb/search"
+	xmlns:ev="http://www.w3.org/2001/xml-events"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:xf="http://www.w3.org/2002/xforms"
+	xmlns:xi="http://www.w3.org/2001/XInclude"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<head></head>
+	<body>
+		<script id="ttl" type="text/turtle">#<![CDATA[
+@prefix ex:    <http://example.org/> .
+@prefix test:  <http://test.org/> .
+@prefix bf:    <http://bibframe.org/vocab/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cwb:   <http://libserv6.princeton.edu/cwb/> .
+
+ex:aBook  rdfs:comment  "This is a really good book!" ;
+        <http://purl.org/dc/elements/1.1/title>
+                "<ex:title>A\n\t\t\t\tGood Book</ex:title>"^^rdfs:XMLLiteral .
+
+[ ex:source  ex:book-description.rdf ] .
+
+ex:book-description.rdf
+        ex:authority  ex:Bob .
+
+ex:test1  a     test:Test .
+
+#]]></script>
+	</body>
+</html>
