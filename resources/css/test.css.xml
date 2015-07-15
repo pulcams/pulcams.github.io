@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- /*-->
+<css>/**/
+@namespace xf url("http://www.w3.org/2002/xforms");
+xf|label{
+	font-weight:800;
+}
+.xforms-trigger .btn-default{
+	
+
+}
+.nav{
+
+}
+html{
+	background-image:url("../img/fundo.png");
+	background-position:center top;
+	background-repeat:repeat-x;
+	overflow-y:scroll;
+
+	width:100%;
+	margin-bottom:2%;
+}
+body{
+	background-color:rgba(255, 255, 255, 0) !important;
+
+}
+#mainform{
+	width:100%;
+
+}
+#edit-subform{
+	height:auto;
+	width:100%;
+	position:relative;
+	margin-top:10%;
+}
+#form-wrapper{
+	height:auto;
+
+}
+#sub-subform1{
+
+	/*background:red;*/
+	height:auto;
+	width:auto;
+}
+#repeat-source1{
+	padding:2%;
+	background:orange;
+	height:auto;
+	width:auto;
+}
+#sub-subform2{
+	padding:2%;
+	background:orange;
+	height:auto;
+	width:auto !important;
+}
+#sub-subform3{
+	padding:2%;
+	background:orange;
+	height:auto;
+	width:auto;
+
+}
+#sub-subform4{
+	padding:2%;
+	background:orange;
+	height:auto;
+	width:auto;
+}
+.resource{
+	padding:1%;
+	border:1px solid black;
+	position:absolute;
+	height:auto !important;
+}
+#test-spec{
+
+}
+.form-group{
+	padding:2%;
+	border:1px solid black;
+	height:auto;
+	width:600px;
+}
+.resource-form tr{
+	width:100%;
+}
+td.repeat-remove{
+	width:20%;
+}
+td.unlink{
+	width:20%;
+}
+.resource-form{
+	display:inline-block;
+	position:relative;
+
+	cursor:pointer;
+	margin:3px;
+	padding:5px;
+	height:auto;
+	width:auto;
+	background-color:white;
+	border-radius:0.5em;
+	border:1px solid #346789;
+	-moz-border-radius:0.5em;
+	-webkit-transition:-webkit-box-shadow 0.15s ease-in;
+	-moz-transition:-moz-box-shadow 0.15s ease-in;
+	-o-transition:-o-box-shadow 0.15s ease-in;
+	transition:box-shadow 0.15s ease-in;
+}
+
+[data-linked],
+label,
+.uri{
+	display:block;
+}
+input[type = text]{
+	width:100%;
+}
+td.connect-wrapper{
+	width:60%;
+}
+.connect{
+	display:inline-block;
+	position:relative;
+
+	cursor:pointer;
+	margin:3px;
+	padding:5px;
+	height:100px;
+	background-color:white;
+	border-radius:0.5em;
+	border:1px solid #346789;
+	-moz-border-radius:0.5em;
+	-webkit-transition:-webkit-box-shadow 0.15s ease-in;
+	-moz-transition:-moz-box-shadow 0.15s ease-in;
+	-o-transition:-o-box-shadow 0.15s ease-in;
+	transition:box-shadow 0.15s ease-in;
+}
+#test-spec{
+	position:absolute;
+	width:auto;
+	height:auto;
+	top:0;
+	right:0;
+	border:1px solid black;
+}
+.hide{
+	display:none;
+}
+pre{
+	font-size:10px;
+}
+.header{
+	width:100%;
+
+	position:absolute;
+	top:0;
+	left:0;
+	background:beige;
+}
+.header h1{
+
+}
+ul.nav{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:100%;
+	background-color:#337ab7;
+	overflow:hidden;
+}
+ul.nav li{
+	float:left;
+}
+ul.nav li a{
+	display:block;
+	width:120px;
+	font-weight:bold;
+	color:#FFFFFF !important;
+	
+	text-align:center;
+	padding:4px;
+	text-decoration:none;		
+}
+ul.nav li a:visited{
+	
+}
+ul.nav li a:hover, ul.nav li a:active{
+	background-color:#22527b;
+}
+.footer{
+	width:100%;
+
+	position:absolute;
+	bottom:0;
+	left:0;
+	background:beige;
+} /**/
+<!-- /*-->
+</css><!--*/
+-->
