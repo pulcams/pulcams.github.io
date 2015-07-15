@@ -22,7 +22,7 @@
             var doc = document;
             console.log(doc);
 			(function () {			    
-				GreenTurtle.attach(doc);
+				document.data.implementation.attach(doc);
 			})();//]]>
         </script>
         <xf:model
@@ -42,26 +42,13 @@
                     id="update-resources">
                     <xf:label>Query</xf:label>
                     <xf:action
-                        ev:event="DOMActivate">
-                        <xf:send
-                            submission="rq"></xf:send>
-                        <xf:action
-                            ev:event="xforms-submit-done">
-                            <xf:load
-                                resource="turtle-test.xhtml"
-                                show="embed"
-                                targetid="subform"></xf:load>
-                           
-                            <xf:load
-                                resource="javascript:GreenTurtle.attach(doc);"></xf:load>
-
-                        </xf:action>
-                        <!--<xf:load
+                        ev:event="DOMActivate">                        
+                        <xf:load
                             resource="turtle-test.xhtml"
                             show="embed"
                             targetid="subform"></xf:load>
                         <xf:load
-                            resource="javascript:document.data.implementation.attach(document);"></xf:load>-->
+                            resource="javascript:document.data.implementation.attach(doc);"></xf:load>
                     </xf:action>
                 </xf:trigger>
             </div>
