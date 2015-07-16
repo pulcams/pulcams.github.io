@@ -1,6 +1,5 @@
 <?xml-stylesheet href="xsltforms/xsltforms.xsl" type="text/xsl"?><?xsltforms-options debug="no"?><?css-conversion no?><?xml-model href="http://www.oxygenxml.com/1999/xhtml/xhtml-xforms.nvdl" schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?>
-<html
-    xml:base="http://localhost:8984/static/index.xhtml"
+<html    
     xmlns="http://www.w3.org/1999/xhtml"
     xmlns:cwb="http://example.org/cwb/"
     xmlns:ev="http://www.w3.org/2001/xml-events"
@@ -18,11 +17,9 @@
         <script type="text/javascript">            
             //<![CDATA[
 			(function () {
-				if (typeof HTMLDocument !== "undefined") {
-					HTMLDocument.prototype.baseURI = window.location.href;
-				} else {
+				if (typeof Document !== "undefined") {
 					Document.prototype.baseURI = window.location.href;
-				}
+				} 
 				console.log(document.baseURI);
 			})();//]]>
         </script>
