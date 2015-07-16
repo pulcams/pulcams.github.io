@@ -15,9 +15,24 @@
 			http-equiv="X-UA-Compatible" />
 		<title>Cataloger's Workbench Editor</title>
 		<style type="text/css">
+			#col1{
+				width:auto;
+				float:right;
+				margin:2%;
+				max-width:50%;
+			
+			}
+			#col2{
+				width:auto;
+				float:left;
+				margin:2%;
+			}
 			#query-form textarea{
 				height:200px;
 				width:600px;
+			}
+			.inline{
+				display:inline;
 			}</style>
 		<xf:model
 			id="rdf-model">
@@ -28,11 +43,11 @@
 						xmlns="">
 						<![CDATA[
 CONSTRUCT {
-  <http://dbpedia.org/resource/Joan_Sebastian> ?p ?o .
+  <http://dbpedia.org/resource/XForms> ?p ?o .
 }
 WHERE
 {
-    <http://dbpedia.org/resource/Joan_Sebastian> ?p ?o .
+    <http://dbpedia.org/resource/XForms> ?p ?o .
 }
 ORDER BY ?p
 ]]>
@@ -47,12 +62,19 @@ ORDER BY ?p
 					</cwb:result>
 				</cwb:data>
 			</xf:instance>
+			<xf:instance
+				id="var-test">
+				<cwb:data>
+					<cwb:value>new XForms variable</cwb:value>
+					<cwb:value></cwb:value>
+				</cwb:data>
+			</xf:instance>
 			<xf:submission
 				cdata-section-elements=""
 				encoding="UTF-8"
 				id="rq"
 				instance="result"
-				method="get"				
+				method="get"
 				replace="text"
 				serialize="none"
 				targetref="cwb:result/cwb:replace">
@@ -75,6 +97,41 @@ ORDER BY ?p
 				<h1
 					about="http://example.org/cwb"
 					property="bf:title">Cataloger's Workbench sandbox</h1>
+			</div>
+			<div
+				id="col2">
+				<h3>XSLTForms <pre class="inline">xf:var</pre> element</h3>
+				<!-- Declare XForms variable and set initial value -->
+				<xf:var
+					name="testVar"
+					value="instance('var-test')/cwb:value"></xf:var>
+				<!-- Output variable -->
+				<xf:output
+					value="concat('$testVar = ', $testVar)"></xf:output>
+				<br />
+				<br />
+				<xf:input
+					incremental="true"
+					ref="instance('var-test')/cwb:value">
+					<xf:label>Update value </xf:label>
+				</xf:input>
+				<br />
+				<br />
+				<xf:trigger
+					ref="instance('var-test')/cwb:value">
+					<xf:label>Reset</xf:label>
+					<xf:action
+						ev:event="DOMActivate">
+						<!-- Reset variable -->
+						<xf:var
+							name="testVar"
+							value="''"></xf:var>
+						<xf:setvalue ref="instance('var-test')/cwb:value" value="$testVar"></xf:setvalue>
+					</xf:action>
+				</xf:trigger>
+			</div>
+			<div
+				id="col1">
 				<div
 					class="input">
 					<h3>DBpedia SPARQL query demo</h3>
@@ -93,13 +150,10 @@ ORDER BY ?p
 							submission="rq"></xf:send>
 					</xf:action>
 				</xf:trigger>
-			</div>
-			<xf:group
-				id="query-output">
 				<pre>
                     <xf:output value="instance('result')/cwb:result/cwb:replace"></xf:output>
                 </pre>
-			</xf:group>
+			</div>
 		</div>
 	</body>
 </html>
