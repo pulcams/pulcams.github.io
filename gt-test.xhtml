@@ -77,38 +77,20 @@
                 <h1
                     about="http://example.org/cwb"
                     property="bf:title">Cataloger's Workbench</h1>
-                <xf:var
-                    name="test"
-                    value="'test'"></xf:var>
                 <xf:trigger
                     id="update-resources">
                     <xf:label>Query</xf:label>
                     <xf:action
                         ev:event="DOMActivate">
-                        <xf:send
-                            submission="rq"></xf:send>
+                        <!--<xf:send
+                            submission="rq"></xf:send>-->
 
-                        <xf:action
-                            ev:event="xforms-submit-done">
-                            <xf:load
-                                resource="turtle-test.xhtml"
-                                show="embed"
-                                targetid="subform"></xf:load>
-
-                            <xf:load
-                                resource="javascript:GreenTurtle.attach(document);"></xf:load>
-                            <xf:var
-                                name="test"
-                                value="'test2'"></xf:var>
-
-                            <xf:setvalue ref="instance('result')/cwb:result/cwb:var" value="$test"></xf:setvalue>
-                        </xf:action>
-                        <!--<xf:load
+                        <xf:load
                             resource="turtle-test.xhtml"
                             show="embed"
                             targetid="subform"></xf:load>
                         <xf:load
-                            resource="javascript:document.data.implementation.attach(document);"></xf:load>-->
+                            resource="javascript:GreenTurtle.attach(document);"></xf:load>
                     </xf:action>
                 </xf:trigger>
             </div>
