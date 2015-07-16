@@ -18,10 +18,10 @@
             //<![CDATA[
 			(function () {
 				if (typeof Document !== "undefined") {
-					Document.prototype.baseURI = window.location.href;
-					Document.prototype.documentElement.baseURI = window.location.href;
+					Document.prototype.baseURI = window.location.href;		
+					Element.prototype.baseURI = window.location.href;		
 				} 
-				console.log(document.documentElement.baseURI);
+				console.log(document.baseURI);
 			})();//]]>
         </script>
         <script src="resources/js/jquery/jquery-1.11.3.min.js" type="text/javascript"></script>
