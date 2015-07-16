@@ -19,8 +19,9 @@
 			(function () {
 				if (typeof Document !== "undefined") {
 					Document.prototype.baseURI = window.location.href;
+					Document.prototype.documentElement.baseURI = window.location.href;
 				} 
-				console.log(document.baseURI);
+				console.log(document.documentElement.baseURI);
 			})();//]]>
         </script>
         <script src="resources/js/jquery/jquery-1.11.3.min.js" type="text/javascript"></script>
