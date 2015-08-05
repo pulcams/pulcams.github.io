@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cwb:data
+	xmlns:cwb="http://libserv6.princeton.edu/cwb/">
+	<cwb:category
+		name="Agrarian and rural issues" />
+	<cwb:category
+		name="Arts and culture" />
+	<cwb:category
+		name="Children and youth" />
+	<cwb:category
+		name="Economics" />
+	<cwb:category
+		name="Education" />
+	<cwb:category
+		name="Environment and ecology" />
+	<cwb:category
+		name="Gender" />
+	<cwb:category
+		name="Health" />
+	<cwb:category
+		name="History" />
+	<cwb:category
+		name="Human and civil rights" />
+	<cwb:category
+		name="Labor" />
+	<cwb:category
+		name="Minorities, ethnic and racial groups" />
+	<cwb:category
+		name="Politics and government" />
+	<cwb:category
+		name="Religion" />
+	<cwb:category
+		name="Science and Technology" />
+	<cwb:category
+		name="Socioeconomic conditions and development" />
+	<cwb:category
+		name="Tourism" />
+	<cwb:category
+		name="Urban issues" />
+</cwb:data>
