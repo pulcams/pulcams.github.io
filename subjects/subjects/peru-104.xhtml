@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="xsltforms/xsltforms.xsl"?>
+<?css-conversion no?>
+<html xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:sr="http://www.w3.org/2005/sparql-results#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:p="http://www.w3.org/ns/xproc" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:cx="http://xmlcalabash.com/ns/extensions" xmlns:cwb="http://libserv6.princeton.edu/cwb/" xmlns:c="http://www.w3.org/ns/xproc-step" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bf="http://bibframe.org/vocab/" xmlns="http://www.w3.org/1999/xhtml" cwb:firefox="yes">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <title>Cataloger's Workbench Editor</title>
+    <xf:model>
+      <xf:instance id="categories">
+        <rdf:RDF>
+          <bf:Work rdf:about="http://libserv6.princeton.edu/cwb/work/7751442">
+            <bf:titleStatement>Tajimat Pujut : para tener un buen vivir, las mujeres y los hombres sí podemos decidir / Leslie Villapolo ; asistente de investigación Lourdes Liz Soldevilla.</bf:titleStatement>
+            <bf:subject>
+              <bf:Category rdf:about="http://libserv6.princeton.edu/cwb/category/6fb93bf4-e8b5-4368-9045-e4e048096bcb#this">
+                <bf:categoryValue></bf:categoryValue>
+                <dcterms:hasPart>
+                  <bf:Topic rdf:about="http://libserv6.princeton.edu/cwb/topic/082096b8-44d7-4618-ab2b-a8b1338d6d00#this">
+                    <bf:hasAuthority rdf:resource="b3571100-72c4-4b35-bf0c-bb386708b5d1"></bf:hasAuthority>
+                  </bf:Topic>
+                </dcterms:hasPart>
+              </bf:Category>
+            </bf:subject>
+          </bf:Work>
+          <bf:Instance rdf:about="http://libserv6.princeton.edu/cwb/instance/2ec8d7c0-588e-41fe-b8de-d2dc54410134">
+            <bf:identifier>
+              <bf:Identifier rdf:about="http://libserv6.princeton.edu/cwb/identifier/6705928a-7f5a-49fa-bde8-57f3af5b4a08">
+                <bf:identifierScheme>item</bf:identifierScheme>
+                <bf:identifierValue>6733094</bf:identifierValue>
+              </bf:Identifier>
+            </bf:identifier>
+            <bf:identifier>
+              <bf:Identifier rdf:about="http://libserv6.princeton.edu/cwb/identifier/4be16a42-9f01-499a-9cf8-ad3fd74d625d">
+                <bf:identifierScheme></bf:identifierScheme>
+                <bf:identifierValue></bf:identifierValue>
+              </bf:Identifier>
+            </bf:identifier>
+          </bf:Instance>
+        </rdf:RDF>
+      </xf:instance>
+    </xf:model>
+  </head>
+  <body>
+    <xf:repeat id="repeat-works-104" nodeset="instance('categories')/bf:Work">
+      <xf:output value="bf:titleStatement"></xf:output>
+      <xf:repeat id="repeat-categories-104" nodeset="bf:subject">
+        <xf:group ref="bf:Category">
+          <div class="select-vocab category">
+            <xf:select1 appearance="minimal" ref="bf:categoryValue">
+              <xf:label>Category name</xf:label>
+              <xf:itemset nodeset="instance('bf-Category-categoryValue-categories')/cwb:category">
+                <xf:label ref="@cwb:name"></xf:label>
+                <xf:value ref="@cwb:name"></xf:value>
+              </xf:itemset>
+              <xf:action ev:event="xforms-value-changed">
+                <xf:setvalue ref="../dcterms:hasPart/bf:Topic/bf:hasAuthority/@rdf:resource" value="''"></xf:setvalue>
+              </xf:action>
+            </xf:select1>
+          </div>
+          <div class="select-vocab subject">
+            <xf:select1 appearance="minimal" ref="dcterms:hasPart/bf:Topic/bf:hasAuthority/@rdf:resource[normalize-space(../../../../bf:categoryValue)]">
+              <xf:label>Subtopic</xf:label>
+              <xf:itemset nodeset="instance('bf-Topic-hasAuthority-subjects')/cwb:subject[@cwb:category = current()/../../../../bf:categoryValue]">
+                <xf:label ref="@cwb:name"></xf:label>
+                <xf:value ref="@cwb:uri"></xf:value>
+              </xf:itemset>
+            </xf:select1>
+          </div>
+        </xf:group>
+        <span class="repeat-resource">
+          <xf:trigger>
+            <xf:label>+</xf:label>
+            <xf:action ev:event="DOMActivate">
+              <xf:insert nodeset="." origin="instance('categories-template')/bf:Work/bf:subject" position="after"></xf:insert>
+            </xf:action>
+          </xf:trigger>
+        </span>
+        <span class="remove-resource">
+          <xf:trigger ref=".[count(../bf:subject) &gt; 1]">
+            <xf:label>-</xf:label>
+            <xf:delete ev:event="DOMActivate" nodeset="."></xf:delete>
+          </xf:trigger>
+        </span>
+        <div class="save-resource">
+          <xf:trigger>
+            <xf:label>Save</xf:label>
+            <xf:action ev:event="DOMActivate">
+              <xf:setvalue ref="instance('categories')/bf:Instance/bf:identifier[2]/bf:Identifier/bf:identifierValue" value="instance('variables')/cwb:iter"></xf:setvalue>
+              <xf:send submission="write-file"></xf:send>
+            </xf:action>
+          </xf:trigger>
+        </div>
+      </xf:repeat>
+    </xf:repeat>
+  </body>
+</html>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="http://pulcams.github.io/xsltforms/build/xsltforms.xsl" type="text/xsl"?><?xsltforms-options debug="yes"?><?css-conversion no?><?xml-model href="http://www.oxygenxml.com/1999/xhtml/xhtml-xforms.nvdl" schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?>
+<?xml-stylesheet href="xsltforms/xsltforms.xsl" type="text/xsl"?><?xsltforms-options debug="no"?><?css-conversion no?><?xml-model href="http://www.oxygenxml.com/1999/xhtml/xhtml-xforms.nvdl" schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?>
 <html
 	xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:bf="http://bibframe.org/vocab/"
@@ -21,28 +21,11 @@
 			content="IE=edge,chrome=1"
 			http-equiv="X-UA-Compatible" />
 		<title>Cataloger's Workbench Editor</title>
+		<link
+			href="resources/css/bootstrap.min.css"
+			rel="stylesheet"
+			type="text/css" />
 		<xf:model>
-			<xf:instance
-				id="categories">
-				<rdf:RDF>
-					<bf:Work>
-						<bf:subject>
-							<bf:Category
-								rdf:about="f246d74a-5758-4329-ba68-4731e5a507ed">
-								<bf:categoryValue></bf:categoryValue>
-								<dcterms:hasPart>
-									<bf:Topic
-										rdf:about="301edb3c-2152-4679-a3c8-d2b8d6c25ed3">
-										<bf:label></bf:label>
-										<bf:hasAuthority
-										rdf:resource="90fc55b0-32c0-4d9d-8949-f6a0d5e74b8c"></bf:hasAuthority>
-									</bf:Topic>
-								</dcterms:hasPart>
-							</bf:Category>
-						</bf:subject>
-					</bf:Work>
-				</rdf:RDF>
-			</xf:instance>
 			<xf:instance
 				id="categories-template">
 				<rdf:RDF>
@@ -63,112 +46,95 @@
 					</bf:Work>
 				</rdf:RDF>
 			</xf:instance>
-			<!--Variables-->
+			<xf:instance
+				id="bf-Category-categoryValue-categories"
+				resource="categories.xml"></xf:instance>
+			<xf:instance
+				id="bf-Topic-hasAuthority-subjects"
+				resource="subjects.xml"></xf:instance>
 			<xf:instance
 				id="variables">
 				<cwb:data>
-					<cwb:selected>
-						<cwb:category></cwb:category>
-						<cwb:subject></cwb:subject>
-					</cwb:selected>
+					<cwb:iter>1</cwb:iter>
 				</cwb:data>
 			</xf:instance>
 			<xf:instance
-				id="variables-template">
-				<cwb:data>
-					<cwb:selected>
-						<cwb:category></cwb:category>
-						<cwb:subject></cwb:subject>
-					</cwb:selected>
-				</cwb:data>
+				id="replace">
+				<cwb:data></cwb:data>
 			</xf:instance>
-			<xf:instance
-				id="bf-Topic-hasAuthority-subjects"
-				src="subjects.xml"></xf:instance>
-			<xf:instance
-				id="bf-Category-categoryValue-categories"
-				src="categories.xml"></xf:instance>
+			<xf:action
+				ev:event="xforms-ready">
+				<xf:load
+					show="embed"
+					targetid="subform">
+					<xf:resource
+						value="concat('subjects/peru-',instance('variables')/cwb:iter, '.xhtml')"></xf:resource>
+				</xf:load>
+			</xf:action>
+			<xf:submission
+				encoding="UTF-8"
+				id="write-file"
+				instance="replace"
+				method="post"
+				ref="instance('categories')"
+				replace="none"
+				resource="/marc"
+				serialization="application/xml">
+				<xf:action
+					ev:event="xforms-submit-done">
+					<xf:message>Saved successfully</xf:message>
+				</xf:action>
+			</xf:submission>
 		</xf:model>
 	</head>
 	<body>
-		<xf:repeat
-			id="repeat-categories"
-			nodeset="instance('categories')/bf:Work/bf:subject">
-			<div
-				class="select-vocab category">
-				<xf:select1
-					appearance="minimal"
-					incremental="true"
-					ref="instance('variables')/cwb:selected[position() = count(current()/preceding-sibling::bf:subject) + 1]/cwb:category">
-					<xf:label>Category name</xf:label>
-					<xf:itemset
-						nodeset="instance('bf-Category-categoryValue-categories')/cwb:category">
-						<xf:label
-							ref="@name"></xf:label>
-						<xf:value
-							ref="@name"></xf:value>
-					</xf:itemset>
-					<xf:action
-						ev:event="xforms-value-changed">
-						<xf:setvalue ref="current()/../cwb:subject" value="''"></xf:setvalue>
-						<xf:setvalue ref="instance('categories')/bf:Work/bf:subject[position() = count(current()/../preceding-sibling::cwb:selected) + 1]/bf:Category/bf:categoryValue" value="current()"></xf:setvalue>
-					</xf:action>
-				</xf:select1>
-			</div>
-			<div
-				class="select-vocab subject">
-				<xf:select1
-					appearance="minimal"
-					incremental="true"
-					ref="instance('variables')/cwb:selected[position() = count(current()/preceding-sibling::bf:subject) + 1]/cwb:subject[preceding-sibling::cwb:category[normalize-space(.)]]"
-					selection="open">
-					<xf:label>Subtopic</xf:label>
-					<xf:itemset
-						nodeset="instance('bf-Topic-hasAuthority-subjects')/cwb:subject[@category = current()/../cwb:category]">
-						<xf:label
-							ref="@name"></xf:label>
-						<xf:value
-							ref="@uri"></xf:value>
-					</xf:itemset>
-					<xf:action
-						ev:event="xforms-value-changed">
-						<xf:setvalue ref="instance('categories')/bf:Work/bf:subject[position() = count(current()/../preceding-sibling::cwb:selected) + 1]/bf:Category/dcterms:hasPart/bf:Topic/bf:hasAuthority/@rdf:resource" value="current()"></xf:setvalue>
-					</xf:action>
-				</xf:select1>
-			</div>
-			<span
-				class="repeat-resource">
-				<xf:trigger>
-					<xf:label>+</xf:label>
-					<xf:action
-						ev:event="DOMActivate">
-						<xf:insert
-							at="index('repeat-categories')"
-							nodeset="../bf:subject"
-							origin="instance('categories-template')/bf:Work/bf:subject"
-							position="after"></xf:insert>
-						<xf:insert
-							context="instance('variables')"
-							nodeset="cwb:selected[last()]"
-							origin="instance('variables-template')/cwb:selected"
-							position="after"></xf:insert>
-					</xf:action>
-				</xf:trigger>
-			</span>
-			<span
-				class="remove-resource">
-				<xf:trigger
-					ref=".[count(../bf:subject) &gt; 1]">
-					<xf:label>-</xf:label>
-					<xf:delete
-						at="index('repeat-categories')"
-						ev:event="DOMActivate"
-						nodeset="../bf:subject"></xf:delete>
-					<xf:delete
-						ev:event="DOMActivate"
-						nodeset="instance('variables')/cwb:selected[position() = index('repeat-categories')]"></xf:delete>
-				</xf:trigger>
-			</span>
-		</xf:repeat>
+		<xf:trigger>
+			<xf:label>Previous</xf:label>
+			<xf:action
+				ev:event="DOMActivate">
+				<xf:setvalue ref="instance('variables')/cwb:iter" value="instance('variables')/cwb:iter - 1"></xf:setvalue>
+				<xf:unload
+					targetid="subform"></xf:unload>
+				<xf:load
+					show="embed"
+					targetid="subform">
+					<xf:resource
+						value="concat('subjects/peru-',instance('variables')/cwb:iter, '.xhtml')"></xf:resource>
+				</xf:load>
+			</xf:action>
+		</xf:trigger>
+		<xf:input
+			incremental="true"
+			ref="instance('variables')/cwb:iter">
+			<xf:label>Page</xf:label>
+			<xf:action
+				ev:event="xforms-value-changed">
+				<xf:unload
+					targetid="subform"></xf:unload>
+				<xf:load
+					show="embed"
+					targetid="subform">
+					<xf:resource
+						value="concat('subjects/peru-',instance('variables')/cwb:iter, '.xhtml')"></xf:resource>
+				</xf:load>
+			</xf:action>
+		</xf:input>
+		<xf:trigger>
+			<xf:label>Next</xf:label>
+			<xf:action
+				ev:event="DOMActivate">
+				<xf:setvalue ref="instance('variables')/cwb:iter" value="instance('variables')/cwb:iter + 1"></xf:setvalue>
+				<xf:unload
+					targetid="subform"></xf:unload>
+				<xf:load
+					show="embed"
+					targetid="subform">
+					<xf:resource
+						value="concat('subjects/peru-',instance('variables')/cwb:iter, '.xhtml')"></xf:resource>
+				</xf:load>
+			</xf:action>
+		</xf:trigger>
+		<xf:group
+			id="subform"></xf:group>
 	</body>
 </html>

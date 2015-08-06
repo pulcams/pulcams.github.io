@@ -1,0 +1,94 @@
+<?xml-stylesheet type="text/xsl" href="xsltforms/xsltforms.xsl"?>
+<?css-conversion no?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:sr="http://www.w3.org/2005/sparql-results#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:p="http://www.w3.org/ns/xproc" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:cx="http://xmlcalabash.com/ns/extensions" xmlns:cwb="http://libserv6.princeton.edu/cwb/" xmlns:c="http://www.w3.org/ns/xproc-step" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bf="http://bibframe.org/vocab/" cwb:firefox="yes">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <title>Cataloger's Workbench Editor</title>
+    <xf:model>
+      <xf:instance id="categories">
+        <rdf:RDF>
+          <bf:Work rdf:about="http://libserv6.princeton.edu/cwb/work/5127899">
+            <bf:titleStatement>Camino Inca a Machupicchu : Peru 1:25,000 / by the Instituto Geográfico Nacional.</bf:titleStatement>
+            <bf:subject>
+              <bf:Category rdf:about="http://libserv6.princeton.edu/cwb/category/816571fe-a9ef-4937-a494-b7b9f13af8fa#this">
+                <bf:categoryValue/>
+                <dcterms:hasPart>
+                  <bf:Topic rdf:about="http://libserv6.princeton.edu/cwb/topic/1e826dbf-a208-468f-9190-be8e9e4d342f#this">
+                    <bf:hasAuthority rdf:resource="10053e61-5a45-4c3a-92f5-2a4f6cd51f5b"/>
+                  </bf:Topic>
+                </dcterms:hasPart>
+              </bf:Category>
+            </bf:subject>
+          </bf:Work>
+          <bf:Instance rdf:about="http://libserv6.princeton.edu/cwb/instance/13796c96-795a-43c6-aa6e-df0d4e961d5b">
+            <bf:identifier>
+              <bf:Identifier rdf:about="http://libserv6.princeton.edu/cwb/identifier/5148d603-04f5-4fb7-8b14-331139b6825a">
+                <bf:identifierScheme>item</bf:identifierScheme>
+                <bf:identifierValue>4543403</bf:identifierValue>
+              </bf:Identifier>
+            </bf:identifier>
+            <bf:identifier>
+              <bf:Identifier rdf:about="http://libserv6.princeton.edu/cwb/identifier/b86cee54-8d81-485c-9703-7887dd111668">
+                <bf:identifierScheme/>
+                <bf:identifierValue>10</bf:identifierValue>
+              </bf:Identifier>
+            </bf:identifier>
+          </bf:Instance>
+        </rdf:RDF>
+      </xf:instance>
+    </xf:model>
+  </head>
+  <body>
+    <xf:repeat id="repeat-works-10" nodeset="instance('categories')/bf:Work">
+      <xf:output value="bf:titleStatement"/>
+      <xf:repeat id="repeat-categories-10" nodeset="bf:subject">
+        <xf:group ref="bf:Category">
+          <div class="select-vocab category">
+            <xf:select1 appearance="minimal" ref="bf:categoryValue">
+              <xf:label>Category name</xf:label>
+              <xf:itemset nodeset="instance('bf-Category-categoryValue-categories')/cwb:category">
+                <xf:label ref="@cwb:name"/>
+                <xf:value ref="@cwb:name"/>
+              </xf:itemset>
+              <xf:action ev:event="xforms-value-changed">
+                <xf:setvalue ref="../dcterms:hasPart/bf:Topic/bf:hasAuthority/@rdf:resource" value="''"/>
+              </xf:action>
+            </xf:select1>
+          </div>
+          <div class="select-vocab subject">
+            <xf:select1 appearance="minimal" ref="dcterms:hasPart/bf:Topic/bf:hasAuthority/@rdf:resource[normalize-space(../../../../bf:categoryValue)]">
+              <xf:label>Subtopic</xf:label>
+              <xf:itemset nodeset="instance('bf-Topic-hasAuthority-subjects')/cwb:subject[@cwb:category = current()/../../../../bf:categoryValue]">
+                <xf:label ref="@cwb:name"/>
+                <xf:value ref="@cwb:uri"/>
+              </xf:itemset>
+            </xf:select1>
+          </div>
+        </xf:group>
+        <span class="repeat-resource">
+          <xf:trigger>
+            <xf:label>+</xf:label>
+            <xf:action ev:event="DOMActivate">
+              <xf:insert nodeset="." origin="instance('categories-template')/bf:Work/bf:subject" position="after"/>
+            </xf:action>
+          </xf:trigger>
+        </span>
+        <span class="remove-resource">
+          <xf:trigger ref=".[count(../bf:subject) &gt; 1]">
+            <xf:label>-</xf:label>
+            <xf:delete ev:event="DOMActivate" nodeset="."/>
+          </xf:trigger>
+        </span>
+        <div class="save-resource">
+          <xf:trigger>
+            <xf:label>Save</xf:label>
+            <xf:action ev:event="DOMActivate">
+              <xf:setvalue ref="instance('categories')/bf:Instance/bf:identifier[2]/bf:Identifier/bf:identifierValue" value="instance('variables')/cwb:iter"/>
+              <xf:send submission="write-file"/>
+            </xf:action>
+          </xf:trigger>
+        </div>
+      </xf:repeat>
+    </xf:repeat>
+  </body>
+</html>

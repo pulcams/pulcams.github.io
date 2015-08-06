@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="xsltforms/xsltforms.xsl"?>
+<?css-conversion no?>
+<html xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:sr="http://www.w3.org/2005/sparql-results#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:p="http://www.w3.org/ns/xproc" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:cx="http://xmlcalabash.com/ns/extensions" xmlns:cwb="http://libserv6.princeton.edu/cwb/" xmlns:c="http://www.w3.org/ns/xproc-step" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bf="http://bibframe.org/vocab/" xmlns="http://www.w3.org/1999/xhtml" cwb:firefox="yes">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <title>Cataloger's Workbench Editor</title>
+    <xf:model>
+      <xf:instance id="categories">
+        <rdf:RDF>
+          <bf:Work rdf:about="http://libserv6.princeton.edu/cwb/work/7032273">
+            <bf:titleStatement>Fortaleciendo la respuesta frente a la epidemia del VIH/SIDA: supervision de los servicios de prevencion, atencion y tratamiento del VIH/SIDA.</bf:titleStatement>
+            <bf:subject>
+              <bf:Category rdf:about="http://libserv6.princeton.edu/cwb/category/43467807-f61c-4dfd-8416-95e37b0153a5#this">
+                <bf:categoryValue></bf:categoryValue>
+                <dcterms:hasPart>
+                  <bf:Topic rdf:about="http://libserv6.princeton.edu/cwb/topic/11ed1a92-4934-4241-8580-adf72c4992f0#this">
+                    <bf:hasAuthority rdf:resource="528c8acb-aa7e-489c-8a42-b3263d4dc892"></bf:hasAuthority>
+                  </bf:Topic>
+                </dcterms:hasPart>
+              </bf:Category>
+            </bf:subject>
+          </bf:Work>
+          <bf:Instance rdf:about="http://libserv6.princeton.edu/cwb/instance/c22cf3aa-e70d-46b2-9741-aa1ef1d7e994">
+            <bf:identifier>
+              <bf:Identifier rdf:about="http://libserv6.princeton.edu/cwb/identifier/3d55135c-4ac0-4612-8e48-0121e0bc107d">
+                <bf:identifierScheme>item</bf:identifierScheme>
+                <bf:identifierValue>6346525</bf:identifierValue>
+              </bf:Identifier>
+            </bf:identifier>
+            <bf:identifier>
+              <bf:Identifier rdf:about="http://libserv6.princeton.edu/cwb/identifier/00235d60-442e-429d-a082-8884f3bdc7c4">
+                <bf:identifierScheme></bf:identifierScheme>
+                <bf:identifierValue></bf:identifierValue>
+              </bf:Identifier>
+            </bf:identifier>
+          </bf:Instance>
+        </rdf:RDF>
+      </xf:instance>
+    </xf:model>
+  </head>
+  <body>
+    <xf:repeat id="repeat-works-45" nodeset="instance('categories')/bf:Work">
+      <xf:output value="bf:titleStatement"></xf:output>
+      <xf:repeat id="repeat-categories-45" nodeset="bf:subject">
+        <xf:group ref="bf:Category">
+          <div class="select-vocab category">
+            <xf:select1 appearance="minimal" ref="bf:categoryValue">
+              <xf:label>Category name</xf:label>
+              <xf:itemset nodeset="instance('bf-Category-categoryValue-categories')/cwb:category">
+                <xf:label ref="@cwb:name"></xf:label>
+                <xf:value ref="@cwb:name"></xf:value>
+              </xf:itemset>
+              <xf:action ev:event="xforms-value-changed">
+                <xf:setvalue ref="../dcterms:hasPart/bf:Topic/bf:hasAuthority/@rdf:resource" value="''"></xf:setvalue>
+              </xf:action>
+            </xf:select1>
+          </div>
+          <div class="select-vocab subject">
+            <xf:select1 appearance="minimal" ref="dcterms:hasPart/bf:Topic/bf:hasAuthority/@rdf:resource[normalize-space(../../../../bf:categoryValue)]">
+              <xf:label>Subtopic</xf:label>
+              <xf:itemset nodeset="instance('bf-Topic-hasAuthority-subjects')/cwb:subject[@cwb:category = current()/../../../../bf:categoryValue]">
+                <xf:label ref="@cwb:name"></xf:label>
+                <xf:value ref="@cwb:uri"></xf:value>
+              </xf:itemset>
+            </xf:select1>
+          </div>
+        </xf:group>
+        <span class="repeat-resource">
+          <xf:trigger>
+            <xf:label>+</xf:label>
+            <xf:action ev:event="DOMActivate">
+              <xf:insert nodeset="." origin="instance('categories-template')/bf:Work/bf:subject" position="after"></xf:insert>
+            </xf:action>
+          </xf:trigger>
+        </span>
+        <span class="remove-resource">
+          <xf:trigger ref=".[count(../bf:subject) &gt; 1]">
+            <xf:label>-</xf:label>
+            <xf:delete ev:event="DOMActivate" nodeset="."></xf:delete>
+          </xf:trigger>
+        </span>
+        <div class="save-resource">
+          <xf:trigger>
+            <xf:label>Save</xf:label>
+            <xf:action ev:event="DOMActivate">
+              <xf:setvalue ref="instance('categories')/bf:Instance/bf:identifier[2]/bf:Identifier/bf:identifierValue" value="instance('variables')/cwb:iter"></xf:setvalue>
+              <xf:send submission="write-file"></xf:send>
+            </xf:action>
+          </xf:trigger>
+        </div>
+      </xf:repeat>
+    </xf:repeat>
+  </body>
+</html>
