@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://pulcams.github.io/xsltforms/build/xsltforms.xsl"?>
+<?css-conversion no?>
+<html xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:sr="http://www.w3.org/2005/sparql-results#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:p="http://www.w3.org/ns/xproc" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:cx="http://xmlcalabash.com/ns/extensions" xmlns:cwb="http://libserv6.princeton.edu/cwb/" xmlns:c="http://www.w3.org/ns/xproc-step" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bf="http://bibframe.org/vocab/" xmlns="http://www.w3.org/1999/xhtml" bf:firefox="yes" cwb:firefox="yes">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <title>Cataloger's Workbench Editor</title>
+    <xf:model>
+      <xf:instance id="categories">
+        <rdf:RDF>
+          <bf:Work rdf:about="http://libserv6.princeton.edu/cwb/work/6738873">
+            <bf:titleStatement>Plan Perú 2021 : plan estratégico de desarrollo nacional : proyecto para la discusión / Centro Nacional de Planeamiento Estratégico (Perú).</bf:titleStatement>
+            <bf:subject>
+              <bf:Category rdf:about="http://libserv6.princeton.edu/cwb/category/296ed3ff-98d2-414a-afc8-ae896aebefc3#this">
+                <bf:categoryValue></bf:categoryValue>
+                <dcterms:hasPart>
+                  <bf:Topic rdf:about="http://libserv6.princeton.edu/cwb/topic/98139264-4763-49a3-8d1c-a817ed2f0e2a#this">
+                    <bf:hasAuthority rdf:resource="1171fb04-b266-478b-9fce-4aad72cb6bb8"></bf:hasAuthority>
+                  </bf:Topic>
+                </dcterms:hasPart>
+              </bf:Category>
+            </bf:subject>
+          </bf:Work>
+          <bf:Instance rdf:about="http://libserv6.princeton.edu/cwb/instance/2e8a2d99-e65e-4c2f-b676-97293f18c4b6">
+            <bf:identifier>
+              <bf:Identifier rdf:about="http://libserv6.princeton.edu/cwb/identifier/2ce4f76e-918f-4c0e-9bde-6e9e688899f0">
+                <bf:identifierScheme>item</bf:identifierScheme>
+                <bf:identifierValue>6187809</bf:identifierValue>
+              </bf:Identifier>
+            </bf:identifier>
+            <bf:identifier>
+              <bf:Identifier rdf:about="http://libserv6.princeton.edu/cwb/identifier/be56b350-d1f6-4b0d-94ff-4e872e61b172">
+                <bf:identifierScheme></bf:identifierScheme>
+                <bf:identifierValue></bf:identifierValue>
+              </bf:Identifier>
+            </bf:identifier>
+          </bf:Instance>
+        </rdf:RDF>
+      </xf:instance>
+    </xf:model>
+  </head>
+  <body>
+    <xf:repeat id="repeat-works-22" nodeset="instance('categories')/bf:Work">
+      <xf:output value="bf:titleStatement"></xf:output>
+      <xf:repeat id="repeat-categories-22" nodeset="bf:subject">
+        <xf:group ref="bf:Category">
+          <div class="select-vocab category">
+            <xf:select1 appearance="minimal" ref="bf:categoryValue">
+              <xf:label>Category name</xf:label>
+              <xf:itemset nodeset="instance('bf-Category-categoryValue-categories')/cwb:category">
+                <xf:label ref="@cwb:name"></xf:label>
+                <xf:value ref="@cwb:name"></xf:value>
+              </xf:itemset>
+              <xf:action ev:event="xforms-value-changed">
+                <xf:setvalue ref="../dcterms:hasPart/bf:Topic/bf:hasAuthority/@rdf:resource" value="''"></xf:setvalue>
+              </xf:action>
+            </xf:select1>
+          </div>
+          <div class="select-vocab subject">
+            <xf:select1 appearance="minimal" ref="dcterms:hasPart/bf:Topic/bf:hasAuthority/@rdf:resource[normalize-space(../../../../bf:categoryValue)]">
+              <xf:label>Subtopic</xf:label>
+              <xf:itemset nodeset="instance('bf-Topic-hasAuthority-subjects')/cwb:subject[@cwb:category = current()/../../../../bf:categoryValue]">
+                <xf:label ref="@cwb:name"></xf:label>
+                <xf:value ref="@cwb:uri"></xf:value>
+              </xf:itemset>
+            </xf:select1>
+          </div>
+        </xf:group>
+        <span class="repeat-resource">
+          <xf:trigger>
+            <xf:label>+</xf:label>
+            <xf:action ev:event="DOMActivate">
+              <xf:insert nodeset="." origin="instance('categories-template')/bf:Work/bf:subject" position="after"></xf:insert>
+            </xf:action>
+          </xf:trigger>
+        </span>
+        <span class="remove-resource">
+          <xf:trigger ref=".[count(../bf:subject) &gt; 1]">
+            <xf:label>-</xf:label>
+            <xf:delete ev:event="DOMActivate" nodeset="."></xf:delete>
+          </xf:trigger>
+        </span>
+        <div class="save-resource">
+          <xf:trigger>
+            <xf:label>Save</xf:label>
+            <xf:action ev:event="DOMActivate">
+              <xf:setvalue ref="instance('categories')/bf:Instance/bf:identifier[2]/bf:Identifier/bf:identifierValue" value="instance('variables')/cwb:iter"></xf:setvalue>
+              <xf:send submission="write-file"></xf:send>
+            </xf:action>
+          </xf:trigger>
+        </div>
+      </xf:repeat>
+    </xf:repeat>
+  </body>
+</html>
