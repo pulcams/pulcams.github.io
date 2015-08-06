@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cwb:data
 	xmlns:cwb="http://libserv6.princeton.edu/cwb/">
+	<cwb:category 
+		cwb:name="Agrarian and rural issues" />
 	<cwb:category
-		name="Agrarian and rural issues" />
+		cwb:name="Arts and culture" />
 	<cwb:category
-		name="Arts and culture" />
+		cwb:name="Children and youth" />
 	<cwb:category
-		name="Children and youth" />
+		cwb:name="Economics" />
 	<cwb:category
-		name="Economics" />
+		cwb:name="Education" />
 	<cwb:category
-		name="Education" />
+		cwb:name="Environment and ecology" />
 	<cwb:category
-		name="Environment and ecology" />
+		cwb:name="Gender" />
 	<cwb:category
-		name="Gender" />
+		cwb:name="Health" />
 	<cwb:category
-		name="Health" />
+		cwb:name="History" />
 	<cwb:category
-		name="History" />
+		cwb:name="Human and civil rights" />
 	<cwb:category
-		name="Human and civil rights" />
+		cwb:name="Labor" />
 	<cwb:category
-		name="Labor" />
+		cwb:name="Minorities, ethnic and racial groups" />
 	<cwb:category
-		name="Minorities, ethnic and racial groups" />
+		cwb:name="Politics and government" />
 	<cwb:category
-		name="Politics and government" />
+		cwb:name="Religion" />
 	<cwb:category
-		name="Religion" />
+		cwb:name="Science and Technology" />
 	<cwb:category
-		name="Science and Technology" />
+		cwb:name="Socioeconomic conditions and development" />
 	<cwb:category
-		name="Socioeconomic conditions and development" />
+		cwb:name="Tourism" />
 	<cwb:category
-		name="Tourism" />
-	<cwb:category
-		name="Urban issues" />
+		cwb:name="Urban issues" />
 </cwb:data>

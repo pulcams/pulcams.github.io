@@ -1,1752 +1,1752 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cwb:data
-	xmlns:cwb="http://libserv6.princeton.edu/cwb/">
-	<cwb:subject
-		category="Agrarian and rural issues"
-		name="Agricultural development projects"
-		uri="http://id.loc.gov/authorities/subjects/sh85002306" />
-	<cwb:subject
-		category="Agrarian and rural issues"
-		name="Agricultural exhibitions"
-		uri="http://id.loc.gov/authorities/subjects/sh85002317" />
-	<cwb:subject
-		category="Agrarian and rural issues"
-		name="Agricultural industries"
-		uri="http://id.loc.gov/authorities/subjects/sh85002331" />
-	<cwb:subject
-		category="Agrarian and rural issues"
-		name="Agricultural laws and legislation"
-		uri="http://id.loc.gov/authorities/subjects/sh85002349" />
-	<cwb:subject
-		category="Agrarian and rural issues"
-		name="Agricultural technology"
-		uri="" />
-	<cwb:subject
-		category="Agrarian and rural issues"
-		name="Agriculture"
-		uri="http://id.loc.gov/authorities/subjects/sh85002415" />
-	<cwb:subject
-		category="Agrarian and rural issues"
-		name="Agriculture and politics"
-		uri="http://id.loc.gov/authorities/subjects/sh85002483" />
-	<cwb:subject
-		category="Agrarian and rural issues"
-		name="Agriculture and state"
-		uri="http://id.loc.gov/authorities/subjects/sh85002484" />
-	<cwb:subject
-		category="Agrarian and rural issues"
-		name="Agriculture--Economic aspects"
-		uri="http://id.loc.gov/authorities/subjects/sh85002427" />
-	<cwb:subject
-		category="Agrarian and rural issues"
-		name="Agriculture--Handbooks, manuals, etc."
-		uri="" />
-	<cwb:subject
-		category="Agrarian and rural issues"
-		name="Agriculture--International cooperation"
-		uri="http://id.loc.gov/authorities/subjects/sh85002440" />
-	<cwb:subject
-		category="Agrarian and rural issues"
-		name="Cattle trade"
-		uri="http://id.loc.gov/authorities/subjects/sh85021415" />
-	<cwb:subject
-		category="Agrarian and rural issues"
-		name="Food industry"
-		uri="" />
-	<cwb:subject
-		category="Agrarian and rural issues"
-		name="Food supply"
-		uri="http://id.loc.gov/authorities/subjects/sh85050339" />
-	<cwb:subject
-		category="Agrarian and rural issues"
-		name="Genetically modified foods"
-		uri="http://id.loc.gov/authorities/subjects/sh00006274" />
-	<cwb:subject
-		category="Agrarian and rural issues"
-		name="Land reform"
-		uri="http://id.loc.gov/authorities/subjects/sh85074300" />
-	<cwb:subject
-		category="Agrarian and rural issues"
-		name="Organic farming"
-		uri="http://id.loc.gov/authorities/subjects/sh85095504" />
-	<cwb:subject
-		category="Agrarian and rural issues"
-		name="Rural conditions"
-		uri="http://id.loc.gov/authorities/subjects/sh85115895" />
-	<cwb:subject
-		category="Agrarian and rural issues"
-		name="Rural development projects"
-		uri="http://id.loc.gov/authorities/subjects/sh85115909" />
-	<cwb:subject
-		category="Agrarian and rural issues"
-		name="Sustainable agriculture"
-		uri="http://id.loc.gov/authorities/subjects/sh87004216" />
-	<cwb:subject
-		category="Agrarian and rural issues"
-		name="Traditional farming"
-		uri="http://id.loc.gov/authorities/subjects/sh85002480" />
-	<cwb:subject
-		category="Agrarian and rural issues"
-		name="Transgenic plants"
-		uri="http://id.loc.gov/authorities/subjects/sh90003137" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Architecture"
-		uri="http://id.loc.gov/authorities/subjects/sh85006611" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Art fairs"
-		uri="http://id.loc.gov/authorities/subjects/sh2007000206" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Artists"
-		uri="http://id.loc.gov/authorities/subjects/sh85008276" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Arts"
-		uri="http://id.loc.gov/authorities/subjects/sh85008324" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Arts--Political aspects"
-		uri="http://id.loc.gov/authorities/subjects/sh2009113916" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Art--Study and teaching"
-		uri="http://id.loc.gov/authorities/subjects/sh85007505" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Books and reading"
-		uri="http://id.loc.gov/authorities/subjects/sh85015758" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Celebrities"
-		uri="http://id.loc.gov/authorities/subjects/sh85021618" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Culture"
-		uri="http://id.loc.gov/authorities/subjects/sh85034755" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Documentary films"
-		uri="http://id.loc.gov/authorities/subjects/sh85088115" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Ethnic art"
-		uri="http://id.loc.gov/authorities/subjects/sh85045163" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Festivals"
-		uri="http://id.loc.gov/authorities/subjects/sh85047932" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Folk art"
-		uri="http://id.loc.gov/authorities/subjects/sh85049650" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Gastronomy"
-		uri="http://id.loc.gov/authorities/subjects/sh85053492" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Indigenous art"
-		uri="http://id.loc.gov/authorities/subjects/sh2006008419" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Intellectuals"
-		uri="http://id.loc.gov/authorities/subjects/sh85067169" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Language and languages"
-		uri="http://id.loc.gov/authorities/subjects/sh85074518" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Libraries"
-		uri="http://id.loc.gov/authorities/subjects/sh85076502" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Literature"
-		uri="http://id.loc.gov/authorities/subjects/sh85077507" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Mass media"
-		uri="http://id.loc.gov/authorities/subjects/sh85081863" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Motion pictures"
-		uri="http://id.loc.gov/authorities/subjects/sh85088084" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Museum exhibits"
-		uri="http://id.loc.gov/authorities/subjects/sh96009328" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Museums"
-		uri="http://id.loc.gov/authorities/subjects/sh85088723" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Music"
-		uri="http://id.loc.gov/authorities/subjects/sh85088762" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Performing arts"
-		uri="http://id.loc.gov/authorities/subjects/sh85099818" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Politics and culture"
-		uri="http://id.loc.gov/authorities/subjects/sh85104468" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Popular culture"
-		uri="http://id.loc.gov/authorities/subjects/sh85104904" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Pre-Columbian art"
-		uri="http://id.loc.gov/authorities/subjects/sh85065027" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Recreation"
-		uri="http://id.loc.gov/authorities/subjects/sh85111945" />
-	<cwb:subject
-		category="Arts and culture"
-		name="Sports"
-		uri="http://id.loc.gov/authorities/subjects/sh85126887" />
-	<cwb:subject
-		category="Children and youth"
-		name="Abandoned children"
-		uri="http://id.loc.gov/authorities/subjects/sh85000048" />
-	<cwb:subject
-		category="Children and youth"
-		name="Adoption"
-		uri="http://id.loc.gov/authorities/subjects/sh85000978" />
-	<cwb:subject
-		category="Children and youth"
-		name="Child abuse"
-		uri="http://id.loc.gov/authorities/subjects/sh85023348" />
-	<cwb:subject
-		category="Children and youth"
-		name="Child care"
-		uri="http://id.loc.gov/authorities/subjects/sh85023354" />
-	<cwb:subject
-		category="Children and youth"
-		name="Child labor"
-		uri="http://id.loc.gov/authorities/subjects/sh85023444" />
-	<cwb:subject
-		category="Children and youth"
-		name="Child nutrition"
-		uri="http://id.loc.gov/authorities/subjects/sh85023463" />
-	<cwb:subject
-		category="Children and youth"
-		name="Child sexual abuse"
-		uri="http://id.loc.gov/authorities/subjects/sh85023376" />
-	<cwb:subject
-		category="Children and youth"
-		name="Children"
-		uri="http://id.loc.gov/authorities/subjects/sh85023418" />
-	<cwb:subject
-		category="Children and youth"
-		name="Children--Crimes against"
-		uri="http://id.loc.gov/authorities/subjects/sh95007375" />
-	<cwb:subject
-		category="Children and youth"
-		name="Children--Government policy"
-		uri="" />
-	<cwb:subject
-		category="Children and youth"
-		name="Children--Health and hygiene"
-		uri="http://id.loc.gov/authorities/subjects/sh85023425" />
-	<cwb:subject
-		category="Children and youth"
-		name="Children--Legal status, laws, etc."
-		uri="" />
-	<cwb:subject
-		category="Children and youth"
-		name="Children's rights"
-		uri="http://id.loc.gov/authorities/subjects/sh85023773" />
-	<cwb:subject
-		category="Children and youth"
-		name="Gangs"
-		uri="http://id.loc.gov/authorities/subjects/sh85053026" />
-	<cwb:subject
-		category="Children and youth"
-		name="Juvenile delinquency"
-		uri="http://id.loc.gov/authorities/subjects/sh85071166" />
-	<cwb:subject
-		category="Children and youth"
-		name="Poor children"
-		uri="http://id.loc.gov/authorities/subjects/sh85104852" />
-	<cwb:subject
-		category="Children and youth"
-		name="Sex instruction"
-		uri="http://id.loc.gov/authorities/subjects/sh85120630" />
-	<cwb:subject
-		category="Children and youth"
-		name="Teenagers"
-		uri="http://id.loc.gov/authorities/subjects/sh87006824" />
-	<cwb:subject
-		category="Children and youth"
-		name="Youth"
-		uri="http://id.loc.gov/authorities/subjects/sh85149310" />
-	<cwb:subject
-		category="Children and youth"
-		name="Youth and violence"
-		uri="http://id.loc.gov/authorities/subjects/sh99000309" />
-	<cwb:subject
-		category="Children and youth"
-		name="Youth employment"
-		uri="" />
-	<cwb:subject
-		category="Children and youth"
-		name="Youth--Alcohol use"
-		uri="http://id.loc.gov/authorities/subjects/sh85149311" />
-	<cwb:subject
-		category="Children and youth"
-		name="Youth--Attitudes"
-		uri="http://id.loc.gov/authorities/subjects/sh2008114052" />
-	<cwb:subject
-		category="Children and youth"
-		name="Youth--Drug use"
-		uri="http://id.loc.gov/authorities/subjects/sh85149320" />
-	<cwb:subject
-		category="Children and youth"
-		name="Youth--Health and hygiene"
-		uri="http://id.loc.gov/authorities/subjects/sh85149328" />
-	<cwb:subject
-		category="Children and youth"
-		name="Youth--Political activity"
-		uri="http://id.loc.gov/authorities/subjects/sh85149336" />
-	<cwb:subject
-		category="Children and youth"
-		name="Youth--Sexual behavior"
-		uri="http://id.loc.gov/authorities/subjects/sh85149343" />
-	<cwb:subject
-		category="Economics"
-		name="Advertising"
-		uri="http://id.loc.gov/authorities/subjects/sh85001086" />
-	<cwb:subject
-		category="Economics"
-		name="Business"
-		uri="http://id.loc.gov/authorities/subjects/sh85018260" />
-	<cwb:subject
-		category="Economics"
-		name="Commerce"
-		uri="http://id.loc.gov/authorities/subjects/sh85028901" />
-	<cwb:subject
-		category="Economics"
-		name="Consumer protection--Economic aspects"
-		uri="" />
-	<cwb:subject
-		category="Economics"
-		name="Cooperative societies"
-		uri="http://id.loc.gov/authorities/subjects/sh85032217" />
-	<cwb:subject
-		category="Economics"
-		name="Debts, External"
-		uri="http://id.loc.gov/authorities/subjects/sh85036140" />
-	<cwb:subject
-		category="Economics"
-		name="Economic conditions"
-		uri="http://id.loc.gov/authorities/subjects/sh85040802" />
-	<cwb:subject
-		category="Economics"
-		name="Economic development"
-		uri="http://id.loc.gov/authorities/subjects/sh85040804" />
-	<cwb:subject
-		category="Economics"
-		name="Economic policy"
-		uri="http://id.loc.gov/authorities/subjects/sh85040837" />
-	<cwb:subject
-		category="Economics"
-		name="Economic policy--Social aspects"
-		uri="" />
-	<cwb:subject
-		category="Economics"
-		name="Economics"
-		uri="http://id.loc.gov/authorities/subjects/sh85040850" />
-	<cwb:subject
-		category="Economics"
-		name="Economics--Political aspects"
-		uri="" />
-	<cwb:subject
-		category="Economics"
-		name="Economics--Research"
-		uri="http://id.loc.gov/authorities/subjects/sh2008102636" />
-	<cwb:subject
-		category="Economics"
-		name="Finance"
-		uri="http://id.loc.gov/authorities/subjects/sh85048256" />
-	<cwb:subject
-		category="Economics"
-		name="Fiscal policy"
-		uri="http://id.loc.gov/authorities/subjects/sh85048601" />
-	<cwb:subject
-		category="Economics"
-		name="Fish trade"
-		uri="http://id.loc.gov/authorities/subjects/sh85048657" />
-	<cwb:subject
-		category="Economics"
-		name="Income distribution"
-		uri="http://id.loc.gov/authorities/subjects/sh85064765" />
-	<cwb:subject
-		category="Economics"
-		name="Industries"
-		uri="http://id.loc.gov/authorities/subjects/sh85065960" />
-	<cwb:subject
-		category="Economics"
-		name="Informal sector (Economics)"
-		uri="http://id.loc.gov/authorities/subjects/sh85066135" />
-	<cwb:subject
-		category="Economics"
-		name="International business enterprises"
-		uri="http://id.loc.gov/authorities/subjects/sh85067372" />
-	<cwb:subject
-		category="Economics"
-		name="Investments, Foreign"
-		uri="http://id.loc.gov/authorities/subjects/sh85067736" />
-	<cwb:subject
-		category="Economics"
-		name="Local government --Economic aspects"
-		uri="" />
-	<cwb:subject
-		category="Economics"
-		name="Mass media--Economic aspects"
-		uri="http://id.loc.gov/authorities/subjects/sh2008107497" />
-	<cwb:subject
-		category="Economics"
-		name="Mines and mineral resources"
-		uri="http://id.loc.gov/authorities/subjects/sh85085614" />
-	<cwb:subject
-		category="Economics"
-		name="Oil industries"
-		uri="http://id.loc.gov/authorities/subjects/sh85094337" />
-	<cwb:subject
-		category="Economics"
-		name="Trade associations"
-		uri="http://id.loc.gov/authorities/subjects/sh95006344" />
-	<cwb:subject
-		category="Education"
-		name="Adult education"
-		uri="http://id.loc.gov/authorities/subjects/sh85001028" />
-	<cwb:subject
-		category="Education"
-		name="Dropouts"
-		uri="http://id.loc.gov/authorities/subjects/sh85039629" />
-	<cwb:subject
-		category="Education"
-		name="Education"
-		uri="http://id.loc.gov/authorities/subjects/sh85040989" />
-	<cwb:subject
-		category="Education"
-		name="Education and state"
-		uri="http://id.loc.gov/authorities/subjects/sh85041091" />
-	<cwb:subject
-		category="Education"
-		name="Education, Bilingual"
-		uri="http://id.loc.gov/authorities/subjects/sh85041053" />
-	<cwb:subject
-		category="Education"
-		name="Education, Higher"
-		uri="http://id.loc.gov/authorities/subjects/sh85041065" />
-	<cwb:subject
-		category="Education"
-		name="Education, Primary"
-		uri="http://id.loc.gov/authorities/subjects/sh85041077" />
-	<cwb:subject
-		category="Education"
-		name="Education, Rural"
-		uri="http://id.loc.gov/authorities/subjects/sh85041081" />
-	<cwb:subject
-		category="Education"
-		name="Education, Secondary"
-		uri="http://id.loc.gov/authorities/subjects/sh85041082" />
-	<cwb:subject
-		category="Education"
-		name="Educational law and legislation"
-		uri="http://id.loc.gov/authorities/subjects/sh85041128" />
-	<cwb:subject
-		category="Education"
-		name="Educational system"
-		uri="" />
-	<cwb:subject
-		category="Education"
-		name="Education--Political aspects"
-		uri="http://id.loc.gov/authorities/subjects/sh85104469" />
-	<cwb:subject
-		category="Education"
-		name="Education--Study and teaching"
-		uri="http://id.loc.gov/authorities/subjects/sh85041021" />
-	<cwb:subject
-		category="Education"
-		name="Literacy"
-		uri="http://id.loc.gov/authorities/subjects/sh85077482" />
-	<cwb:subject
-		category="Education"
-		name="Minorities--Education"
-		uri="http://id.loc.gov/authorities/subjects/sh85085794" />
-	<cwb:subject
-		category="Education"
-		name="Multicultural education"
-		uri="http://id.loc.gov/authorities/subjects/sh85067223" />
-	<cwb:subject
-		category="Education"
-		name="Poor--Education"
-		uri="" />
-	<cwb:subject
-		category="Education"
-		name="Popular education"
-		uri="http://id.loc.gov/authorities/subjects/sh91005791" />
-	<cwb:subject
-		category="Education"
-		name="Schools"
-		uri="http://id.loc.gov/authorities/subjects/sh85118451" />
-	<cwb:subject
-		category="Education"
-		name="Science education"
-		uri="http://id.loc.gov/authorities/subjects/sh85118587" />
-	<cwb:subject
-		category="Education"
-		name="Student unions"
-		uri="http://id.loc.gov/authorities/subjects/sh85129292" />
-	<cwb:subject
-		category="Education"
-		name="Teachers' unions"
-		uri="http://id.loc.gov/authorities/subjects/sh85133046" />
-	<cwb:subject
-		category="Education"
-		name="Teaching--Aids and devices"
-		uri="http://id.loc.gov/authorities/subjects/sh85133053" />
-	<cwb:subject
-		category="Education"
-		name="Universities and colleges"
-		uri="http://id.loc.gov/authorities/subjects/sh85141086" />
-	<cwb:subject
-		category="Education"
-		name="Vocational education"
-		uri="http://id.loc.gov/authorities/subjects/sh85144178" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Biodiversity"
-		uri="http://id.loc.gov/authorities/subjects/sh87005569" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Climatic changes"
-		uri="http://id.loc.gov/authorities/subjects/sh85027037" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Community development--Environmental aspects"
-		uri="" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Conservation of natural resources"
-		uri="http://id.loc.gov/authorities/subjects/sh85031255" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Ecotourism"
-		uri="http://id.loc.gov/authorities/subjects/sh92003403" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Energy conservation"
-		uri="http://id.loc.gov/authorities/subjects/sh85043124" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Energy policy"
-		uri="http://id.loc.gov/authorities/subjects/sh85043147" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Environment"
-		uri="http://id.loc.gov/authorities/subjects/sh85000800" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Environmental education"
-		uri="http://id.loc.gov/authorities/subjects/sh85044169" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Environmental health"
-		uri="http://id.loc.gov/authorities/subjects/sh85044173" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Environmental law"
-		uri="http://id.loc.gov/authorities/subjects/sh85044184" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Environmental policy"
-		uri="http://id.loc.gov/authorities/subjects/sh85044197" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Environmental protection"
-		uri="http://id.loc.gov/authorities/subjects/sh85044203" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Environmentalism"
-		uri="http://id.loc.gov/authorities/subjects/sh93004752" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Fish trade--environmental aspects"
-		uri="" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Forests and forestry"
-		uri="http://id.loc.gov/authorities/subjects/sh85050707" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Green technology"
-		uri="http://id.loc.gov/authorities/subjects/sh94001791" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Marine resources"
-		uri="http://id.loc.gov/authorities/subjects/sh85081257" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Mineral industries--environmental aspects"
-		uri="http://id.loc.gov/authorities/subjects/sh85085556" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="National parks and reserves"
-		uri="http://id.loc.gov/authorities/subjects/sh85090045" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Natural disasters"
-		uri="http://id.loc.gov/authorities/subjects/sh85090214" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Natural gas"
-		uri="http://id.loc.gov/authorities/subjects/sh85053223" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Natural resources"
-		uri="http://id.loc.gov/authorities/subjects/sh85090254" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Nature conservation"
-		uri="http://id.loc.gov/authorities/subjects/sh85090284" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Petroleum industry and trade"
-		uri="http://id.loc.gov/authorities/subjects/sh85100430" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Pollution"
-		uri="http://id.loc.gov/authorities/subjects/sh85104530" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Power resources--Environmental aspects"
-		uri="http://id.loc.gov/authorities/subjects/sh2008109911" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Rain forests"
-		uri="http://id.loc.gov/authorities/subjects/sh85111193" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Recycling (Waste, etc.); Waste disposal"
-		uri="" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Renewable energy resources"
-		uri="http://id.loc.gov/authorities/subjects/sh85112837" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Sustainable development"
-		uri="http://id.loc.gov/authorities/subjects/sh92005743" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Urban policy--Environmental aspects"
-		uri="" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Waste disposal"
-		uri="http://id.loc.gov/authorities/subjects/sh85145407" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Water use"
-		uri="http://id.loc.gov/authorities/subjects/sh85145666" />
-	<cwb:subject
-		category="Environment and ecology"
-		name="Wildlife conservation"
-		uri="http://id.loc.gov/authorities/subjects/sh85146731" />
-	<cwb:subject
-		category="Gender"
-		name="Beauty contests"
-		uri="http://id.loc.gov/authorities/subjects/sh85012724" />
-	<cwb:subject
-		category="Gender"
-		name="Family"
-		uri="http://id.loc.gov/authorities/subjects/sh00005743" />
-	<cwb:subject
-		category="Gender"
-		name="Family violence"
-		uri="http://id.loc.gov/authorities/subjects/sh85047071" />
-	<cwb:subject
-		category="Gender"
-		name="Feminism"
-		uri="http://id.loc.gov/authorities/subjects/sh85047741" />
-	<cwb:subject
-		category="Gender"
-		name="Gay couples"
-		uri="http://id.loc.gov/authorities/subjects/sh85061777" />
-	<cwb:subject
-		category="Gender"
-		name="Gay culture"
-		uri="http://id.loc.gov/authorities/subjects/sh2004003369" />
-	<cwb:subject
-		category="Gender"
-		name="Gay rights"
-		uri="http://id.loc.gov/authorities/subjects/sh94009215" />
-	<cwb:subject
-		category="Gender"
-		name="Gays"
-		uri="http://id.loc.gov/authorities/subjects/sh85061795" />
-	<cwb:subject
-		category="Gender"
-		name="Gays--Legal status, laws, etc."
-		uri="" />
-	<cwb:subject
-		category="Gender"
-		name="Gender"
-		uri="http://id.loc.gov/authorities/subjects/sh00002547" />
-	<cwb:subject
-		category="Gender"
-		name="HIV-positive women"
-		uri="http://id.loc.gov/authorities/subjects/sh95003227" />
-	<cwb:subject
-		category="Gender"
-		name="Homosexuality--Government policy"
-		uri="" />
-	<cwb:subject
-		category="Gender"
-		name="Indigenous women"
-		uri="http://id.loc.gov/authorities/subjects/sh00007362" />
-	<cwb:subject
-		category="Gender"
-		name="Lesbian culture"
-		uri="http://id.loc.gov/authorities/subjects/sh2004003370" />
-	<cwb:subject
-		category="Gender"
-		name="Lesbians"
-		uri="http://id.loc.gov/authorities/subjects/sh85076160" />
-	<cwb:subject
-		category="Gender"
-		name="Masculinity"
-		uri="http://id.loc.gov/authorities/subjects/sh85081797" />
-	<cwb:subject
-		category="Gender"
-		name="Men"
-		uri="http://id.loc.gov/authorities/subjects/sh85083510" />
-	<cwb:subject
-		category="Gender"
-		name="Men--Sexual behavior"
-		uri="http://id.loc.gov/authorities/subjects/sh85083520" />
-	<cwb:subject
-		category="Gender"
-		name="Prostitution"
-		uri="http://id.loc.gov/authorities/subjects/sh85107626" />
-	<cwb:subject
-		category="Gender"
-		name="Reproductive health"
-		uri="http://id.loc.gov/authorities/subjects/sh98006709" />
-	<cwb:subject
-		category="Gender"
-		name="Reproductive rights"
-		uri="http://id.loc.gov/authorities/subjects/sh2008005212" />
-	<cwb:subject
-		category="Gender"
-		name="Same-sex marriage"
-		uri="http://id.loc.gov/authorities/subjects/sh92003901" />
-	<cwb:subject
-		category="Gender"
-		name="Sex discrimination"
-		uri="http://id.loc.gov/authorities/subjects/sh85120591" />
-	<cwb:subject
-		category="Gender"
-		name="Sex discrimination against women"
-		uri="http://id.loc.gov/authorities/subjects/sh85120595" />
-	<cwb:subject
-		category="Gender"
-		name="Sexual abuse victims"
-		uri="http://id.loc.gov/authorities/subjects/sh92002829" />
-	<cwb:subject
-		category="Gender"
-		name="Sexual health"
-		uri="http://id.loc.gov/authorities/subjects/sh85063528" />
-	<cwb:subject
-		category="Gender"
-		name="Transgender people"
-		uri="http://id.loc.gov/authorities/subjects/sh2007003708" />
-	<cwb:subject
-		category="Gender"
-		name="Women"
-		uri="http://id.loc.gov/authorities/subjects/sh85147274" />
-	<cwb:subject
-		category="Gender"
-		name="Women household employees"
-		uri="http://id.loc.gov/authorities/subjects/sh85147520" />
-	<cwb:subject
-		category="Gender"
-		name="Women in art"
-		uri="http://id.loc.gov/authorities/subjects/sh85147554" />
-	<cwb:subject
-		category="Gender"
-		name="Women--Crimes against"
-		uri="http://id.loc.gov/authorities/subjects/sh85147284" />
-	<cwb:subject
-		category="Gender"
-		name="Women--Education"
-		uri="http://id.loc.gov/authorities/subjects/sh85147291" />
-	<cwb:subject
-		category="Gender"
-		name="Women--Employment"
-		uri="http://id.loc.gov/authorities/subjects/sh85147294" />
-	<cwb:subject
-		category="Gender"
-		name="Women--Government policy"
-		uri="" />
-	<cwb:subject
-		category="Gender"
-		name="Women--Health and hygiene"
-		uri="http://id.loc.gov/authorities/subjects/sh85147301" />
-	<cwb:subject
-		category="Gender"
-		name="Women--Identity"
-		uri="http://id.loc.gov/authorities/subjects/sh95001570" />
-	<cwb:subject
-		category="Gender"
-		name="Women--Legal status, laws, etc."
-		uri="" />
-	<cwb:subject
-		category="Gender"
-		name="Women--Political activity"
-		uri="http://id.loc.gov/authorities/subjects/sh85147597" />
-	<cwb:subject
-		category="Gender"
-		name="Women--Sexual behavior"
-		uri="http://id.loc.gov/authorities/subjects/sh85147339" />
-	<cwb:subject
-		category="Health"
-		name="Abortion"
-		uri="http://id.loc.gov/authorities/subjects/sh85000196" />
-	<cwb:subject
-		category="Health"
-		name="AIDS (Disease)"
-		uri="http://id.loc.gov/authorities/subjects/sh85002541" />
-	<cwb:subject
-		category="Health"
-		name="Alternative medicine"
-		uri="http://id.loc.gov/authorities/subjects/sh85134721" />
-	<cwb:subject
-		category="Health"
-		name="Birth control"
-		uri="http://id.loc.gov/authorities/subjects/sh85014367" />
-	<cwb:subject
-		category="Health"
-		name="Contraception"
-		uri="http://id.loc.gov/authorities/subjects/sh85031589" />
-	<cwb:subject
-		category="Health"
-		name="Discrimination in medical care"
-		uri="http://id.loc.gov/authorities/subjects/sh85038396" />
-	<cwb:subject
-		category="Health"
-		name="Diseases"
-		uri="http://id.loc.gov/authorities/subjects/sh85038411" />
-	<cwb:subject
-		category="Health"
-		name="Drugs--Therapeutic use"
-		uri="" />
-	<cwb:subject
-		category="Health"
-		name="Family planning"
-		uri="http://id.loc.gov/authorities/subjects/sh2009005770" />
-	<cwb:subject
-		category="Health"
-		name="Health"
-		uri="http://id.loc.gov/authorities/subjects/sh85059518" />
-	<cwb:subject
-		category="Health"
-		name="Health education"
-		uri="http://id.loc.gov/authorities/subjects/sh85059537" />
-	<cwb:subject
-		category="Health"
-		name="Health facilities"
-		uri="http://id.loc.gov/authorities/subjects/sh85059543" />
-	<cwb:subject
-		category="Health"
-		name="Health policy"
-		uri="http://id.loc.gov/authorities/subjects/sh85083002" />
-	<cwb:subject
-		category="Health"
-		name="Health services accessibility"
-		uri="http://id.loc.gov/authorities/subjects/sh92006496" />
-	<cwb:subject
-		category="Health"
-		name="Health--Environmental aspects"
-		uri="http://id.loc.gov/authorities/subjects/sh85044173" />
-	<cwb:subject
-		category="Health"
-		name="HIV infections"
-		uri="http://id.loc.gov/authorities/subjects/sh91004036" />
-	<cwb:subject
-		category="Health"
-		name="Immunization"
-		uri="http://id.loc.gov/authorities/subjects/sh85064545" />
-	<cwb:subject
-		category="Health"
-		name="Medical care"
-		uri="http://id.loc.gov/authorities/subjects/sh85082871" />
-	<cwb:subject
-		category="Health"
-		name="Mental health"
-		uri="http://id.loc.gov/authorities/subjects/sh85083615" />
-	<cwb:subject
-		category="Health"
-		name="Nutrition"
-		uri="http://id.loc.gov/authorities/subjects/sh85093451" />
-	<cwb:subject
-		category="Health"
-		name="Older people"
-		uri="http://id.loc.gov/authorities/subjects/sh85002087" />
-	<cwb:subject
-		category="Health"
-		name="People with disabilities"
-		uri="http://id.loc.gov/authorities/subjects/sh85058663" />
-	<cwb:subject
-		category="Health"
-		name="Pests"
-		uri="http://id.loc.gov/authorities/subjects/sh85100293" />
-	<cwb:subject
-		category="Health"
-		name="Physicians"
-		uri="http://id.loc.gov/authorities/subjects/sh85101610" />
-	<cwb:subject
-		category="Health"
-		name="Public health"
-		uri="http://id.loc.gov/authorities/subjects/sh85108638" />
-	<cwb:subject
-		category="Health"
-		name="Public health--Citizenship participation"
-		uri="" />
-	<cwb:subject
-		category="Health"
-		name="Sanitation"
-		uri="http://id.loc.gov/authorities/subjects/sh85117296" />
-	<cwb:subject
-		category="Health"
-		name="Substance abuse"
-		uri="http://id.loc.gov/authorities/subjects/sh85129539" />
-	<cwb:subject
-		category="Health"
-		name="Traditional medicine"
-		uri="http://id.loc.gov/authorities/subjects/sh85083164" />
-	<cwb:subject
-		category="Health"
-		name="Water--Health aspects"
-		uri="" />
-	<cwb:subject
-		category="History"
-		name="Archaeology"
-		uri="http://id.loc.gov/authorities/subjects/sh85006507" />
-	<cwb:subject
-		category="History"
-		name="Archives"
-		uri="http://id.loc.gov/authorities/subjects/sh85006913" />
-	<cwb:subject
-		category="History"
-		name="Biography"
-		uri="http://id.loc.gov/authorities/subjects/sh85014152" />
-	<cwb:subject
-		category="History"
-		name="History"
-		uri="http://id.loc.gov/authorities/subjects/sh85061212" />
-	<cwb:subject
-		category="History"
-		name="Local history"
-		uri="http://id.loc.gov/authorities/subjects/sh85077932" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Civil Rights"
-		uri="http://id.loc.gov/authorities/subjects/sh85026371" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Civil rights--Government policy"
-		uri="" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Collective memory"
-		uri="http://id.loc.gov/authorities/subjects/sh2006002444" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Consumer protection"
-		uri="http://id.loc.gov/authorities/subjects/sh85031486" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Disappeared persons"
-		uri="http://id.loc.gov/authorities/subjects/sh89002409" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Forced migration"
-		uri="http://id.loc.gov/authorities/subjects/sh88005789" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Freedom of expression"
-		uri="http://id.loc.gov/authorities/subjects/sh2003012251" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Freedom of the press"
-		uri="http://id.loc.gov/authorities/subjects/sh85051711" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Guerrillas--Civil rights"
-		uri="" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Human rights"
-		uri="http://id.loc.gov/authorities/subjects/sh85026379" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Human rights advocacy"
-		uri="http://id.loc.gov/authorities/subjects/sh94008953" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Human rights--Government policy"
-		uri="" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Human rights--Law and legislation"
-		uri="http://id.loc.gov/authorities/subjects/sh85026379" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Human trafficking"
-		uri="http://id.loc.gov/authorities/subjects/sh2006002629" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Immigrants--Civil rights"
-		uri="" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Indigenous peoples--Civil rights"
-		uri="http://id.loc.gov/authorities/subjects/sh2001006129" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Massacres"
-		uri="http://id.loc.gov/authorities/subjects/sh85081954" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Minorities--Civil rights"
-		uri="http://id.loc.gov/authorities/subjects/sh98005421" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Missing children"
-		uri="http://id.loc.gov/authorities/subjects/sh85086009" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Older people--Civil rights"
-		uri="" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Paramilitaries"
-		uri="http://id.loc.gov/authorities/subjects/sh85097857" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="People with disabilities--Civil rights"
-		uri="" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Police brutality"
-		uri="http://id.loc.gov/authorities/subjects/sh95010616" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Political prisoners"
-		uri="http://id.loc.gov/authorities/subjects/sh85104422" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Political violence"
-		uri="http://id.loc.gov/authorities/subjects/sh95005727" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Prisons"
-		uri="http://id.loc.gov/authorities/subjects/sh85106996" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Refugees--Civil rights"
-		uri="" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Sexual minorities"
-		uri="http://id.loc.gov/authorities/subjects/sh2004003385" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="State-sponsored terrorism"
-		uri="http://id.loc.gov/authorities/subjects/sh91004326" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Terrorism"
-		uri="http://id.loc.gov/authorities/subjects/sh85134112" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Torture"
-		uri="http://id.loc.gov/authorities/subjects/sh85136190" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Truth commissions"
-		uri="http://id.loc.gov/authorities/subjects/sh2001002255" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Women's rights"
-		uri="http://id.loc.gov/authorities/subjects/sh85147765" />
-	<cwb:subject
-		category="Human and civil rights"
-		name="Youth--Civil rights"
-		uri="" />
-	<cwb:subject
-		category="Labor"
-		name="Agricultural workers"
-		uri="http://id.loc.gov/authorities/subjects/sh85002338" />
-	<cwb:subject
-		category="Labor"
-		name="Employee rights"
-		uri="http://id.loc.gov/authorities/subjects/sh85042873" />
-	<cwb:subject
-		category="Labor"
-		name="Employment"
-		uri="http://id.loc.gov/authorities/subjects/sh99005236" />
-	<cwb:subject
-		category="Labor"
-		name="Forced labor"
-		uri="http://id.loc.gov/authorities/subjects/sh85050453" />
-	<cwb:subject
-		category="Labor"
-		name="Labor"
-		uri="http://id.loc.gov/authorities/subjects/sh90004091" />
-	<cwb:subject
-		category="Labor"
-		name="Labor and globalization"
-		uri="http://id.loc.gov/authorities/subjects/sh2012000571" />
-	<cwb:subject
-		category="Labor"
-		name="Labor economics"
-		uri="http://id.loc.gov/authorities/subjects/sh85073687" />
-	<cwb:subject
-		category="Labor"
-		name="Labor laws and legislation"
-		uri="http://id.loc.gov/authorities/subjects/sh85073691" />
-	<cwb:subject
-		category="Labor"
-		name="Labor market"
-		uri="http://id.loc.gov/authorities/subjects/sh89000875" />
-	<cwb:subject
-		category="Labor"
-		name="Labor unions"
-		uri="http://id.loc.gov/authorities/subjects/sh85136516" />
-	<cwb:subject
-		category="Labor"
-		name="Labor unions--Political activity"
-		uri="http://id.loc.gov/authorities/subjects/sh85136669" />
-	<cwb:subject
-		category="Labor"
-		name="Migrant Labor"
-		uri="http://id.loc.gov/authorities/subjects/sh85085067" />
-	<cwb:subject
-		category="Labor"
-		name="Occupational training"
-		uri="http://id.loc.gov/authorities/subjects/sh85093855" />
-	<cwb:subject
-		category="Labor"
-		name="Pensions"
-		uri="http://id.loc.gov/authorities/subjects/sh85099592" />
-	<cwb:subject
-		category="Labor"
-		name="Retirees"
-		uri="http://id.loc.gov/authorities/subjects/sh88002484" />
-	<cwb:subject
-		category="Labor"
-		name="Unemployed"
-		uri="http://id.loc.gov/authorities/subjects/sh85139639" />
-	<cwb:subject
-		category="Labor"
-		name="Wages"
-		uri="http://id.loc.gov/authorities/subjects/sh85144526" />
-	<cwb:subject
-		category="Labor"
-		name="Work environment"
-		uri="http://id.loc.gov/authorities/subjects/sh85148146" />
-	<cwb:subject
-		category="Labor"
-		name="Working class"
-		uri="http://id.loc.gov/authorities/subjects/sh85073639" />
-	<cwb:subject
-		category="Minorities, ethnic and racial groups"
-		name="Affirmative action"
-		uri="" />
-	<cwb:subject
-		category="Minorities, ethnic and racial groups"
-		name="Arabs"
-		uri="http://id.loc.gov/authorities/subjects/sh85006349" />
-	<cwb:subject
-		category="Minorities, ethnic and racial groups"
-		name="Asians"
-		uri="http://id.loc.gov/authorities/subjects/sh85008657" />
-	<cwb:subject
-		category="Minorities, ethnic and racial groups"
-		name="Blacks"
-		uri="http://id.loc.gov/authorities/subjects/sh85014672" />
-	<cwb:subject
-		category="Minorities, ethnic and racial groups"
-		name="Discrimination"
-		uri="http://id.loc.gov/authorities/subjects/sh85038376" />
-	<cwb:subject
-		category="Minorities, ethnic and racial groups"
-		name="Ethnic groups"
-		uri="http://id.loc.gov/authorities/subjects/sh85045172" />
-	<cwb:subject
-		category="Minorities, ethnic and racial groups"
-		name="Ethnic relations"
-		uri="http://id.loc.gov/authorities/subjects/sh85045182" />
-	<cwb:subject
-		category="Minorities, ethnic and racial groups"
-		name="Ethnicity--Political aspects"
-		uri="http://id.loc.gov/authorities/subjects/sh2008119896" />
-	<cwb:subject
-		category="Minorities, ethnic and racial groups"
-		name="Europeans"
-		uri="http://id.loc.gov/authorities/subjects/sh85045859" />
-	<cwb:subject
-		category="Minorities, ethnic and racial groups"
-		name="Folklore"
-		uri="http://id.loc.gov/authorities/subjects/sh85050104" />
-	<cwb:subject
-		category="Minorities, ethnic and racial groups"
-		name="Immigrants"
-		uri="http://id.loc.gov/authorities/subjects/sh85064517" />
-	<cwb:subject
-		category="Minorities, ethnic and racial groups"
-		name="Indigenous peoples"
-		uri="http://id.loc.gov/authorities/subjects/sh85090174" />
-	<cwb:subject
-		category="Minorities, ethnic and racial groups"
-		name="Indigenous peoples--Legal status, laws, etc."
-		uri="" />
-	<cwb:subject
-		category="Minorities, ethnic and racial groups"
-		name="Mestizos"
-		uri="http://id.loc.gov/authorities/subjects/sh93008230" />
-	<cwb:subject
-		category="Minorities, ethnic and racial groups"
-		name="Minorities"
-		uri="http://id.loc.gov/authorities/subjects/sh85085792" />
-	<cwb:subject
-		category="Minorities, ethnic and racial groups"
-		name="Minorities--Legal status, laws, etc."
-		uri="" />
-	<cwb:subject
-		category="Minorities, ethnic and racial groups"
-		name="Minorities--Political activity"
-		uri="http://id.loc.gov/authorities/subjects/sh85085807" />
-	<cwb:subject
-		category="Minorities, ethnic and racial groups"
-		name="Minorities--Politics and government"
-		uri="" />
-	<cwb:subject
-		category="Minorities, ethnic and racial groups"
-		name="Minorities--Population"
-		uri="http://id.loc.gov/authorities/subjects/sh85085808" />
-	<cwb:subject
-		category="Minorities, ethnic and racial groups"
-		name="Racism"
-		uri="http://id.loc.gov/authorities/subjects/sh85110266" />
-	<cwb:subject
-		category="Politics and government"
-		name="Administrative regulations"
-		uri="http://id.loc.gov/authorities/subjects/sh85036560" />
-	<cwb:subject
-		category="Politics and government"
-		name="Armed Forces"
-		uri="http://id.loc.gov/authorities/subjects/sh85007241" />
-	<cwb:subject
-		category="Politics and government"
-		name="Community organization"
-		uri="http://id.loc.gov/authorities/subjects/sh85029254" />
-	<cwb:subject
-		category="Politics and government"
-		name="Constitutions"
-		uri="http://id.loc.gov/authorities/subjects/sh85031336" />
-	<cwb:subject
-		category="Politics and government"
-		name="Courts"
-		uri="http://id.loc.gov/authorities/subjects/sh85033571" />
-	<cwb:subject
-		category="Politics and government"
-		name="Decentralization in government"
-		uri="http://id.loc.gov/authorities/subjects/sh85036185" />
-	<cwb:subject
-		category="Politics and government"
-		name="Democracy"
-		uri="http://id.loc.gov/authorities/subjects/sh85036647" />
-	<cwb:subject
-		category="Politics and government"
-		name="Elections"
-		uri="http://id.loc.gov/authorities/subjects/sh85041557" />
-	<cwb:subject
-		category="Politics and government"
-		name="Foreign relations"
-		uri="http://id.loc.gov/authorities/subjects/sh85050519" />
-	<cwb:subject
-		category="Politics and government"
-		name="Government accountability"
-		uri="http://id.loc.gov/authorities/subjects/sh2007008050" />
-	<cwb:subject
-		category="Politics and government"
-		name="Government policy"
-		uri="http://id.loc.gov/authorities/subjects/sh85056091" />
-	<cwb:subject
-		category="Politics and government"
-		name="Guerrillas"
-		uri="http://id.loc.gov/authorities/subjects/sh85057696" />
-	<cwb:subject
-		category="Politics and government"
-		name="International agencies"
-		uri="http://id.loc.gov/authorities/subjects/sh85067357" />
-	<cwb:subject
-		category="Politics and government"
-		name="International cooperation"
-		uri="http://id.loc.gov/authorities/subjects/sh85067385" />
-	<cwb:subject
-		category="Politics and government"
-		name="Latin America--Relations--United States; United States--Relations--Latin America"
-		uri="" />
-	<cwb:subject
-		category="Politics and government"
-		name="Laws"
-		uri="" />
-	<cwb:subject
-		category="Politics and government"
-		name="Local government"
-		uri="http://id.loc.gov/authorities/subjects/sh85077923" />
-	<cwb:subject
-		category="Politics and government"
-		name="Mass media--Political aspects"
-		uri="http://id.loc.gov/authorities/subjects/sh85081871" />
-	<cwb:subject
-		category="Politics and government"
-		name="National security"
-		uri="http://id.loc.gov/authorities/subjects/sh85090122" />
-	<cwb:subject
-		category="Politics and government"
-		name="Nationalism"
-		uri="http://id.loc.gov/authorities/subjects/sh85090150" />
-	<cwb:subject
-		category="Politics and government"
-		name="Pan-Americanism"
-		uri="http://id.loc.gov/authorities/subjects/sh85097311" />
-	<cwb:subject
-		category="Politics and government"
-		name="Paramilitary forces"
-		uri="http://id.loc.gov/authorities/subjects/sh85097857" />
-	<cwb:subject
-		category="Politics and government"
-		name="Peace agreements"
-		uri="" />
-	<cwb:subject
-		category="Politics and government"
-		name="Peace movements"
-		uri="http://id.loc.gov/authorities/subjects/sh85098950" />
-	<cwb:subject
-		category="Politics and government"
-		name="Peace negotiations"
-		uri="" />
-	<cwb:subject
-		category="Politics and government"
-		name="Policy analysis"
-		uri="" />
-	<cwb:subject
-		category="Politics and government"
-		name="Political campaigns"
-		uri="http://id.loc.gov/authorities/subjects/sh85041555" />
-	<cwb:subject
-		category="Politics and government"
-		name="Political corruption"
-		uri="http://id.loc.gov/authorities/subjects/sh85033057" />
-	<cwb:subject
-		category="Politics and government"
-		name="Political participation"
-		uri="http://id.loc.gov/authorities/subjects/sh85104370" />
-	<cwb:subject
-		category="Politics and government"
-		name="Political parties"
-		uri="http://id.loc.gov/authorities/subjects/sh85104371" />
-	<cwb:subject
-		category="Politics and government"
-		name="Politics"
-		uri="http://id.loc.gov/authorities/subjects/sh2002011436" />
-	<cwb:subject
-		category="Politics and government"
-		name="Presidents"
-		uri="http://id.loc.gov/authorities/subjects/sh85106459" />
-	<cwb:subject
-		category="Politics and government"
-		name="Privatization"
-		uri="http://id.loc.gov/authorities/subjects/sh85107058" />
-	<cwb:subject
-		category="Politics and government"
-		name="Protest movements"
-		uri="http://id.loc.gov/authorities/subjects/sh91005953" />
-	<cwb:subject
-		category="Politics and government"
-		name="Public administration"
-		uri="http://id.loc.gov/authorities/subjects/sh85108611" />
-	<cwb:subject
-		category="Politics and government"
-		name="Public safety"
-		uri="http://id.loc.gov/authorities/subjects/sh2008002399" />
-	<cwb:subject
-		category="Politics and government"
-		name="Revolutionaries"
-		uri="http://id.loc.gov/authorities/subjects/sh85113502" />
-	<cwb:subject
-		category="Politics and government"
-		name="Self-determination, National"
-		uri="http://id.loc.gov/authorities/subjects/sh85119735" />
-	<cwb:subject
-		category="Politics and government"
-		name="Social movements"
-		uri="http://id.loc.gov/authorities/subjects/sh85123979" />
-	<cwb:subject
-		category="Politics and government"
-		name="Students--Political activity"
-		uri="http://id.loc.gov/authorities/subjects/sh85129306" />
-	<cwb:subject
-		category="Politics and government"
-		name="Transportation"
-		uri="http://id.loc.gov/authorities/subjects/sh85137027" />
-	<cwb:subject
-		category="Politics and government"
-		name="Voting"
-		uri="http://id.loc.gov/authorities/subjects/sh85144418" />
-	<cwb:subject
-		category="Politics and government"
-		name="War"
-		uri="http://id.loc.gov/authorities/subjects/sh85145114" />
-	<cwb:subject
-		category="Religion"
-		name="Afro-Brazilian cults"
-		uri="http://id.loc.gov/authorities/subjects/sh88007804" />
-	<cwb:subject
-		category="Religion"
-		name="Afro-Caribbean cults"
-		uri="http://id.loc.gov/authorities/subjects/sh96010511" />
-	<cwb:subject
-		category="Religion"
-		name="Atheism"
-		uri="http://id.loc.gov/authorities/subjects/sh85009109" />
-	<cwb:subject
-		category="Religion"
-		name="Bible"
-		uri="http://id.loc.gov/authorities/subjects/sh85013576" />
-	<cwb:subject
-		category="Religion"
-		name="Catholic Church"
-		uri="http://id.loc.gov/authorities/subjects/sh85021043" />
-	<cwb:subject
-		category="Religion"
-		name="Christians"
-		uri="http://id.loc.gov/authorities/subjects/sh85025293" />
-	<cwb:subject
-		category="Religion"
-		name="Church and state"
-		uri="http://id.loc.gov/authorities/subjects/sh85025534" />
-	<cwb:subject
-		category="Religion"
-		name="Church of England"
-		uri="" />
-	<cwb:subject
-		category="Religion"
-		name="Cults"
-		uri="http://id.loc.gov/authorities/subjects/sh85034719" />
-	<cwb:subject
-		category="Religion"
-		name="Ecumenical movement"
-		uri="http://id.loc.gov/authorities/subjects/sh85040933" />
-	<cwb:subject
-		category="Religion"
-		name="Episcopal Church"
-		uri="http://id.loc.gov/authorities/subjects/sh85044442" />
-	<cwb:subject
-		category="Religion"
-		name="Evangelicalism"
-		uri="http://id.loc.gov/authorities/subjects/sh85045933" />
-	<cwb:subject
-		category="Religion"
-		name="Independent churches"
-		uri="http://id.loc.gov/authorities/subjects/sh85064846" />
-	<cwb:subject
-		category="Religion"
-		name="Indians--Religion"
-		uri="http://id.loc.gov/authorities/subjects/sh85065067" />
-	<cwb:subject
-		category="Religion"
-		name="Islam"
-		uri="http://id.loc.gov/authorities/subjects/sh85068390" />
-	<cwb:subject
-		category="Religion"
-		name="Jehovah's Witnesses"
-		uri="http://id.loc.gov/authorities/subjects/sh85069870" />
-	<cwb:subject
-		category="Religion"
-		name="Judaism"
-		uri="http://id.loc.gov/authorities/subjects/sh85070835" />
-	<cwb:subject
-		category="Religion"
-		name="Liberation theology"
-		uri="http://id.loc.gov/authorities/subjects/sh85076447" />
-	<cwb:subject
-		category="Religion"
-		name="Missionaries"
-		uri="http://id.loc.gov/authorities/subjects/sh85086017" />
-	<cwb:subject
-		category="Religion"
-		name="Protestant churches"
-		uri="http://id.loc.gov/authorities/subjects/sh85107712" />
-	<cwb:subject
-		category="Religion"
-		name="Religion"
-		uri="http://id.loc.gov/authorities/subjects/sh85112549" />
-	<cwb:subject
-		category="Religion"
-		name="Religion and politics"
-		uri="http://id.loc.gov/authorities/subjects/sh85112577" />
-	<cwb:subject
-		category="Religion"
-		name="Religious architecture"
-		uri="http://id.loc.gov/authorities/subjects/sh2004000703" />
-	<cwb:subject
-		category="Religion"
-		name="Religious art"
-		uri="http://id.loc.gov/authorities/subjects/sh85112607" />
-	<cwb:subject
-		category="Religion"
-		name="Religious education"
-		uri="http://id.loc.gov/authorities/subjects/sh85112630" />
-	<cwb:subject
-		category="Religion"
-		name="Rites and ceremonies"
-		uri="http://id.loc.gov/authorities/subjects/sh85114211" />
-	<cwb:subject
-		category="Religion"
-		name="Spiritualism"
-		uri="http://id.loc.gov/authorities/subjects/sh85126775" />
-	<cwb:subject
-		category="Science and Technology"
-		name="Biotechnology"
-		uri="http://id.loc.gov/authorities/subjects/sh85014263" />
-	<cwb:subject
-		category="Science and Technology"
-		name="Energy Technology"
-		uri="" />
-	<cwb:subject
-		category="Science and Technology"
-		name="Engineering"
-		uri="http://id.loc.gov/authorities/subjects/sh85043176" />
-	<cwb:subject
-		category="Science and Technology"
-		name="Geology"
-		uri="http://id.loc.gov/authorities/subjects/sh85054037" />
-	<cwb:subject
-		category="Science and Technology"
-		name="Information technology"
-		uri="http://id.loc.gov/authorities/subjects/sh87002293" />
-	<cwb:subject
-		category="Science and Technology"
-		name="Medical technology"
-		uri="http://id.loc.gov/authorities/subjects/sh85083046" />
-	<cwb:subject
-		category="Science and Technology"
-		name="Military Technology"
-		uri="" />
-	<cwb:subject
-		category="Science and Technology"
-		name="Science and technology"
-		uri="" />
-	<cwb:subject
-		category="Socioeconomic conditions and development"
-		name="Community development"
-		uri="http://id.loc.gov/authorities/subjects/sh85029215" />
-	<cwb:subject
-		category="Socioeconomic conditions and development"
-		name="Crime prevention"
-		uri="http://id.loc.gov/authorities/subjects/sh85034011" />
-	<cwb:subject
-		category="Socioeconomic conditions and development"
-		name="Demography"
-		uri="http://id.loc.gov/authorities/subjects/sh85036659" />
-	<cwb:subject
-		category="Socioeconomic conditions and development"
-		name="Drug traffic"
-		uri="http://id.loc.gov/authorities/subjects/sh88000332" />
-	<cwb:subject
-		category="Socioeconomic conditions and development"
-		name="Economic assistance"
-		uri="http://id.loc.gov/authorities/subjects/sh85040767" />
-	<cwb:subject
-		category="Socioeconomic conditions and development"
-		name="Economic development projects"
-		uri="http://id.loc.gov/authorities/subjects/sh85040810" />
-	<cwb:subject
-		category="Socioeconomic conditions and development"
-		name="Economic policy--Citizen participation"
-		uri="" />
-	<cwb:subject
-		category="Socioeconomic conditions and development"
-		name="Globalization"
-		uri="http://id.loc.gov/authorities/subjects/sh99010179" />
-	<cwb:subject
-		category="Socioeconomic conditions and development"
-		name="Housing"
-		uri="http://id.loc.gov/authorities/subjects/sh85062603" />
-	<cwb:subject
-		category="Socioeconomic conditions and development"
-		name="Hydrocarbons"
-		uri="http://id.loc.gov/authorities/subjects/sh85063372" />
-	<cwb:subject
-		category="Socioeconomic conditions and development"
-		name="Infrastructure (Economics)"
-		uri="http://id.loc.gov/authorities/subjects/sh85066333" />
-	<cwb:subject
-		category="Socioeconomic conditions and development"
-		name="Poverty"
-		uri="http://id.loc.gov/authorities/subjects/sh85105939" />
-	<cwb:subject
-		category="Socioeconomic conditions and development"
-		name="Power resources"
-		uri="http://id.loc.gov/authorities/subjects/sh85105992" />
-	<cwb:subject
-		category="Socioeconomic conditions and development"
-		name="Public safety--Social aspects"
-		uri="http://id.loc.gov/authorities/subjects/sh2008002399" />
-	<cwb:subject
-		category="Socioeconomic conditions and development"
-		name="Retirement"
-		uri="http://id.loc.gov/authorities/subjects/sh85113347" />
-	<cwb:subject
-		category="Socioeconomic conditions and development"
-		name="Small business"
-		uri="http://id.loc.gov/authorities/subjects/sh85123568" />
-	<cwb:subject
-		category="Socioeconomic conditions and development"
-		name="Social conditions"
-		uri="http://id.loc.gov/authorities/subjects/sh2001008850" />
-	<cwb:subject
-		category="Socioeconomic conditions and development"
-		name="Social justice"
-		uri="http://id.loc.gov/authorities/subjects/sh85123969" />
-	<cwb:subject
-		category="Socioeconomic conditions and development"
-		name="Social policy"
-		uri="http://id.loc.gov/authorities/subjects/sh85123985" />
-	<cwb:subject
-		category="Socioeconomic conditions and development"
-		name="Social policy--Citizen participation"
-		uri="http://id.loc.gov/authorities/subjects/sh85104370" />
-	<cwb:subject
-		category="Socioeconomic conditions and development"
-		name="Technical assistance"
-		uri="http://id.loc.gov/authorities/subjects/sh85133088" />
-	<cwb:subject
-		category="Socioeconomic conditions and development"
-		name="Violence"
-		uri="http://id.loc.gov/authorities/subjects/sh85143514" />
-	<cwb:subject
-		category="Tourism"
-		name="Advertising--Tourism"
-		uri="http://id.loc.gov/authorities/subjects/sh88000359" />
-	<cwb:subject
-		category="Tourism"
-		name="Archaeological sites"
-		uri="http://id.loc.gov/authorities/subjects/sh2004001339" />
-	<cwb:subject
-		category="Tourism"
-		name="Guidebooks"
-		uri="http://id.loc.gov/authorities/subjects/sh85057716" />
-	<cwb:subject
-		category="Tourism"
-		name="Hotels and motels"
-		uri="http://id.loc.gov/authorities/subjects/sh85062487" />
-	<cwb:subject
-		category="Tourism"
-		name="Monuments"
-		uri="http://id.loc.gov/authorities/subjects/sh85087089" />
-	<cwb:subject
-		category="Tourism"
-		name="Tourism"
-		uri="http://id.loc.gov/authorities/subjects/sh85136255" />
-	<cwb:subject
-		category="Tourism"
-		name="Tourism and art"
-		uri="http://id.loc.gov/authorities/subjects/sh85136266" />
-	<cwb:subject
-		category="Tourism"
-		name="Tourism and gastronomy"
-		uri="http://id.loc.gov/authorities/subjects/sh2003000021" />
-	<cwb:subject
-		category="Tourism"
-		name="Tourism--Economic aspects"
-		uri="http://id.loc.gov/authorities/subjects/sh85136255" />
-	<cwb:subject
-		category="Tourism"
-		name="Tourism--Social aspects"
-		uri="http://id.loc.gov/authorities/subjects/sh2008112808" />
-	<cwb:subject
-		category="Tourism"
-		name="Tourist camps, hostels, etc."
-		uri="" />
-	<cwb:subject
-		category="Tourism"
-		name="Tourist maps"
-		uri="http://id.loc.gov/authorities/subjects/sh85080873" />
-	<cwb:subject
-		category="Urban issues"
-		name="Cities"
-		uri="http://id.loc.gov/authorities/subjects/sh85026130" />
-	<cwb:subject
-		category="Urban issues"
-		name="City planning"
-		uri="http://id.loc.gov/authorities/subjects/sh85026282" />
-	<cwb:subject
-		category="Urban issues"
-		name="Crime"
-		uri="http://id.loc.gov/authorities/subjects/sh85033993" />
-	<cwb:subject
-		category="Urban issues"
-		name="Housing policy"
-		uri="http://id.loc.gov/authorities/subjects/sh85062639" />
-	<cwb:subject
-		category="Urban issues"
-		name="Land use, urban"
-		uri="http://id.loc.gov/authorities/subjects/sh85074353" />
-	<cwb:subject
-		category="Urban issues"
-		name="Public works"
-		uri="http://id.loc.gov/authorities/subjects/sh85108858" />
-	<cwb:subject
-		category="Urban issues"
-		name="Real estate business"
-		uri="http://id.loc.gov/authorities/subjects/sh85111712" />
-	<cwb:subject
-		category="Urban issues"
-		name="Squatter settlements"
-		uri="http://id.loc.gov/authorities/subjects/sh85127101" />
-	<cwb:subject
-		category="Urban issues"
-		name="Urban population"
-		uri="http://id.loc.gov/authorities/subjects/sh96010384" />
-	<cwb:subject
-		category="Urban issues"
-		name="Urban renewal"
-		uri="http://id.loc.gov/authorities/subjects/sh85141324" />
-	<cwb:subject
-		category="Urban issues"
-		name="Urban transportation"
-		uri="http://id.loc.gov/authorities/subjects/sh85141331" />
-	<cwb:subject
-		category="Urban issues"
-		name="Urban violence"
-		uri="http://id.loc.gov/authorities/subjects/sh2002002042" />
-	<cwb:subject
-		category="Urban issues"
-		name="Urban-rural migration"
-		uri="http://id.loc.gov/authorities/subjects/sh85141328" />
+	xmlns:cwb="http://libserv6.princeton.edu/cwb/">	
+	<cwb:subject
+		cwb:category="Agrarian and rural issues"
+		cwb:name="Agricultural development projects"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85002306" />
+	<cwb:subject
+		cwb:category="Agrarian and rural issues"
+		cwb:name="Agricultural exhibitions"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85002317" />
+	<cwb:subject
+		cwb:category="Agrarian and rural issues"
+		cwb:name="Agricultural industries"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85002331" />
+	<cwb:subject
+		cwb:category="Agrarian and rural issues"
+		cwb:name="Agricultural laws and legislation"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85002349" />
+	<cwb:subject
+		cwb:category="Agrarian and rural issues"
+		cwb:name="Agricultural technology"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Agrarian and rural issues"
+		cwb:name="Agriculture"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85002415" />
+	<cwb:subject
+		cwb:category="Agrarian and rural issues"
+		cwb:name="Agriculture and politics"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85002483" />
+	<cwb:subject
+		cwb:category="Agrarian and rural issues"
+		cwb:name="Agriculture and state"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85002484" />
+	<cwb:subject
+		cwb:category="Agrarian and rural issues"
+		cwb:name="Agriculture--Economic aspects"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85002427" />
+	<cwb:subject
+		cwb:category="Agrarian and rural issues"
+		cwb:name="Agriculture--Handbooks, manuals, etc."
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Agrarian and rural issues"
+		cwb:name="Agriculture--International cooperation"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85002440" />
+	<cwb:subject
+		cwb:category="Agrarian and rural issues"
+		cwb:name="Cattle trade"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85021415" />
+	<cwb:subject
+		cwb:category="Agrarian and rural issues"
+		cwb:name="Food industry"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Agrarian and rural issues"
+		cwb:name="Food supply"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85050339" />
+	<cwb:subject
+		cwb:category="Agrarian and rural issues"
+		cwb:name="Genetically modified foods"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh00006274" />
+	<cwb:subject
+		cwb:category="Agrarian and rural issues"
+		cwb:name="Land reform"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85074300" />
+	<cwb:subject
+		cwb:category="Agrarian and rural issues"
+		cwb:name="Organic farming"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85095504" />
+	<cwb:subject
+		cwb:category="Agrarian and rural issues"
+		cwb:name="Rural conditions"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85115895" />
+	<cwb:subject
+		cwb:category="Agrarian and rural issues"
+		cwb:name="Rural development projects"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85115909" />
+	<cwb:subject
+		cwb:category="Agrarian and rural issues"
+		cwb:name="Sustainable agriculture"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh87004216" />
+	<cwb:subject
+		cwb:category="Agrarian and rural issues"
+		cwb:name="Traditional farming"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85002480" />
+	<cwb:subject
+		cwb:category="Agrarian and rural issues"
+		cwb:name="Transgenic plants"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh90003137" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Architecture"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85006611" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Art fairs"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2007000206" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Artists"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85008276" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Arts"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85008324" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Arts--Political aspects"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2009113916" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Art--Study and teaching"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85007505" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Books and reading"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85015758" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Celebrities"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85021618" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Culture"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85034755" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Documentary films"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85088115" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Ethnic art"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85045163" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Festivals"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85047932" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Folk art"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85049650" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Gastronomy"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85053492" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Indigenous art"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2006008419" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Intellectuals"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85067169" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Language and languages"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85074518" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Libraries"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85076502" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Literature"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85077507" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Mass media"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85081863" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Motion pictures"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85088084" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Museum exhibits"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh96009328" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Museums"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85088723" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Music"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85088762" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Performing arts"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85099818" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Politics and culture"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85104468" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Popular culture"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85104904" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Pre-Columbian art"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85065027" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Recreation"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85111945" />
+	<cwb:subject
+		cwb:category="Arts and culture"
+		cwb:name="Sports"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85126887" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Abandoned children"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85000048" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Adoption"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85000978" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Child abuse"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85023348" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Child care"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85023354" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Child labor"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85023444" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Child nutrition"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85023463" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Child sexual abuse"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85023376" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Children"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85023418" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Children--Crimes against"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh95007375" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Children--Government policy"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Children--Health and hygiene"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85023425" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Children--Legal status, laws, etc."
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Children's rights"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85023773" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Gangs"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85053026" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Juvenile delinquency"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85071166" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Poor children"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85104852" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Sex instruction"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85120630" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Teenagers"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh87006824" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Youth"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85149310" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Youth and violence"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh99000309" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Youth employment"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Youth--Alcohol use"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85149311" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Youth--Attitudes"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2008114052" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Youth--Drug use"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85149320" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Youth--Health and hygiene"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85149328" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Youth--Political activity"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85149336" />
+	<cwb:subject
+		cwb:category="Children and youth"
+		cwb:name="Youth--Sexual behavior"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85149343" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Advertising"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85001086" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Business"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85018260" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Commerce"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85028901" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Consumer protection--Economic aspects"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Cooperative societies"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85032217" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Debts, External"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85036140" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Economic conditions"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85040802" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Economic development"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85040804" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Economic policy"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85040837" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Economic policy--Social aspects"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Economics"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85040850" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Economics--Political aspects"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Economics--Research"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2008102636" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Finance"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85048256" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Fiscal policy"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85048601" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Fish trade"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85048657" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Income distribution"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85064765" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Industries"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85065960" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Informal sector (Economics)"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85066135" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="International business enterprises"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85067372" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Investments, Foreign"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85067736" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Local government --Economic aspects"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Mass media--Economic aspects"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2008107497" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Mines and mineral resources"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85085614" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Oil industries"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85094337" />
+	<cwb:subject
+		cwb:category="Economics"
+		cwb:name="Trade associations"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh95006344" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Adult education"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85001028" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Dropouts"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85039629" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Education"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85040989" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Education and state"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85041091" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Education, Bilingual"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85041053" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Education, Higher"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85041065" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Education, Primary"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85041077" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Education, Rural"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85041081" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Education, Secondary"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85041082" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Educational law and legislation"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85041128" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Educational system"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Education--Political aspects"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85104469" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Education--Study and teaching"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85041021" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Literacy"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85077482" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Minorities--Education"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85085794" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Multicultural education"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85067223" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Poor--Education"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Popular education"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh91005791" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Schools"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85118451" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Science education"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85118587" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Student unions"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85129292" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Teachers' unions"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85133046" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Teaching--Aids and devices"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85133053" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Universities and colleges"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85141086" />
+	<cwb:subject
+		cwb:category="Education"
+		cwb:name="Vocational education"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85144178" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Biodiversity"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh87005569" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Climatic changes"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85027037" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Community development--Environmental aspects"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Conservation of natural resources"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85031255" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Ecotourism"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh92003403" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Energy conservation"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85043124" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Energy policy"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85043147" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Environment"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85000800" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Environmental education"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85044169" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Environmental health"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85044173" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Environmental law"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85044184" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Environmental policy"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85044197" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Environmental protection"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85044203" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Environmentalism"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh93004752" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Fish trade--environmental aspects"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Forests and forestry"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85050707" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Green technology"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh94001791" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Marine resources"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85081257" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Mineral industries--environmental aspects"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85085556" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="National parks and reserves"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85090045" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Natural disasters"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85090214" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Natural gas"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85053223" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Natural resources"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85090254" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Nature conservation"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85090284" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Petroleum industry and trade"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85100430" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Pollution"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85104530" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Power resources--Environmental aspects"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2008109911" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Rain forests"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85111193" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Recycling (Waste, etc.); Waste disposal"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Renewable energy resources"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85112837" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Sustainable development"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh92005743" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Urban policy--Environmental aspects"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Waste disposal"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85145407" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Water use"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85145666" />
+	<cwb:subject
+		cwb:category="Environment and ecology"
+		cwb:name="Wildlife conservation"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85146731" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Beauty contests"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85012724" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Family"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh00005743" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Family violence"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85047071" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Feminism"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85047741" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Gay couples"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85061777" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Gay culture"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2004003369" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Gay rights"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh94009215" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Gays"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85061795" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Gays--Legal status, laws, etc."
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Gender"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh00002547" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="HIV-positive women"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh95003227" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Homosexuality--Government policy"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Indigenous women"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh00007362" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Lesbian culture"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2004003370" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Lesbians"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85076160" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Masculinity"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85081797" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Men"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85083510" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Men--Sexual behavior"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85083520" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Prostitution"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85107626" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Reproductive health"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh98006709" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Reproductive rights"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2008005212" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Same-sex marriage"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh92003901" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Sex discrimination"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85120591" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Sex discrimination against women"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85120595" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Sexual abuse victims"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh92002829" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Sexual health"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85063528" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Transgender people"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2007003708" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Women"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85147274" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Women household employees"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85147520" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Women in art"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85147554" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Women--Crimes against"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85147284" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Women--Education"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85147291" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Women--Employment"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85147294" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Women--Government policy"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Women--Health and hygiene"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85147301" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Women--Identity"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh95001570" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Women--Legal status, laws, etc."
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Women--Political activity"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85147597" />
+	<cwb:subject
+		cwb:category="Gender"
+		cwb:name="Women--Sexual behavior"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85147339" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Abortion"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85000196" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="AIDS (Disease)"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85002541" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Alternative medicine"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85134721" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Birth control"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85014367" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Contraception"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85031589" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Discrimination in medical care"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85038396" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Diseases"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85038411" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Drugs--Therapeutic use"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Family planning"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2009005770" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Health"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85059518" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Health education"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85059537" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Health facilities"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85059543" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Health policy"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85083002" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Health services accessibility"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh92006496" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Health--Environmental aspects"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85044173" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="HIV infections"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh91004036" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Immunization"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85064545" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Medical care"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85082871" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Mental health"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85083615" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Nutrition"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85093451" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Older people"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85002087" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="People with disabilities"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85058663" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Pests"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85100293" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Physicians"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85101610" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Public health"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85108638" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Public health--Citizenship participation"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Sanitation"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85117296" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Substance abuse"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85129539" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Traditional medicine"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85083164" />
+	<cwb:subject
+		cwb:category="Health"
+		cwb:name="Water--Health aspects"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="History"
+		cwb:name="Archaeology"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85006507" />
+	<cwb:subject
+		cwb:category="History"
+		cwb:name="Archives"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85006913" />
+	<cwb:subject
+		cwb:category="History"
+		cwb:name="Biography"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85014152" />
+	<cwb:subject
+		cwb:category="History"
+		cwb:name="History"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85061212" />
+	<cwb:subject
+		cwb:category="History"
+		cwb:name="Local history"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85077932" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Civil Rights"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85026371" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Civil rights--Government policy"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Collective memory"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2006002444" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Consumer protection"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85031486" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Disappeared persons"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh89002409" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Forced migration"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh88005789" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Freedom of expression"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2003012251" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Freedom of the press"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85051711" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Guerrillas--Civil rights"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Human rights"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85026379" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Human rights advocacy"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh94008953" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Human rights--Government policy"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Human rights--Law and legislation"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85026379" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Human trafficking"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2006002629" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Immigrants--Civil rights"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Indigenous peoples--Civil rights"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2001006129" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Massacres"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85081954" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Minorities--Civil rights"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh98005421" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Missing children"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85086009" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Older people--Civil rights"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Paramilitaries"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85097857" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="People with disabilities--Civil rights"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Police brutality"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh95010616" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Political prisoners"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85104422" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Political violence"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh95005727" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Prisons"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85106996" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Refugees--Civil rights"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Sexual minorities"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2004003385" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="State-sponsored terrorism"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh91004326" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Terrorism"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85134112" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Torture"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85136190" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Truth commissions"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2001002255" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Women's rights"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85147765" />
+	<cwb:subject
+		cwb:category="Human and civil rights"
+		cwb:name="Youth--Civil rights"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Labor"
+		cwb:name="Agricultural workers"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85002338" />
+	<cwb:subject
+		cwb:category="Labor"
+		cwb:name="Employee rights"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85042873" />
+	<cwb:subject
+		cwb:category="Labor"
+		cwb:name="Employment"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh99005236" />
+	<cwb:subject
+		cwb:category="Labor"
+		cwb:name="Forced labor"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85050453" />
+	<cwb:subject
+		cwb:category="Labor"
+		cwb:name="Labor"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh90004091" />
+	<cwb:subject
+		cwb:category="Labor"
+		cwb:name="Labor and globalization"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2012000571" />
+	<cwb:subject
+		cwb:category="Labor"
+		cwb:name="Labor economics"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85073687" />
+	<cwb:subject
+		cwb:category="Labor"
+		cwb:name="Labor laws and legislation"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85073691" />
+	<cwb:subject
+		cwb:category="Labor"
+		cwb:name="Labor market"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh89000875" />
+	<cwb:subject
+		cwb:category="Labor"
+		cwb:name="Labor unions"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85136516" />
+	<cwb:subject
+		cwb:category="Labor"
+		cwb:name="Labor unions--Political activity"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85136669" />
+	<cwb:subject
+		cwb:category="Labor"
+		cwb:name="Migrant Labor"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85085067" />
+	<cwb:subject
+		cwb:category="Labor"
+		cwb:name="Occupational training"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85093855" />
+	<cwb:subject
+		cwb:category="Labor"
+		cwb:name="Pensions"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85099592" />
+	<cwb:subject
+		cwb:category="Labor"
+		cwb:name="Retirees"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh88002484" />
+	<cwb:subject
+		cwb:category="Labor"
+		cwb:name="Unemployed"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85139639" />
+	<cwb:subject
+		cwb:category="Labor"
+		cwb:name="Wages"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85144526" />
+	<cwb:subject
+		cwb:category="Labor"
+		cwb:name="Work environment"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85148146" />
+	<cwb:subject
+		cwb:category="Labor"
+		cwb:name="Working class"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85073639" />
+	<cwb:subject
+		cwb:category="Minorities, ethnic and racial groups"
+		cwb:name="Affirmative action"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Minorities, ethnic and racial groups"
+		cwb:name="Arabs"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85006349" />
+	<cwb:subject
+		cwb:category="Minorities, ethnic and racial groups"
+		cwb:name="Asians"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85008657" />
+	<cwb:subject
+		cwb:category="Minorities, ethnic and racial groups"
+		cwb:name="Blacks"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85014672" />
+	<cwb:subject
+		cwb:category="Minorities, ethnic and racial groups"
+		cwb:name="Discrimination"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85038376" />
+	<cwb:subject
+		cwb:category="Minorities, ethnic and racial groups"
+		cwb:name="Ethnic groups"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85045172" />
+	<cwb:subject
+		cwb:category="Minorities, ethnic and racial groups"
+		cwb:name="Ethnic relations"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85045182" />
+	<cwb:subject
+		cwb:category="Minorities, ethnic and racial groups"
+		cwb:name="Ethnicity--Political aspects"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2008119896" />
+	<cwb:subject
+		cwb:category="Minorities, ethnic and racial groups"
+		cwb:name="Europeans"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85045859" />
+	<cwb:subject
+		cwb:category="Minorities, ethnic and racial groups"
+		cwb:name="Folklore"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85050104" />
+	<cwb:subject
+		cwb:category="Minorities, ethnic and racial groups"
+		cwb:name="Immigrants"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85064517" />
+	<cwb:subject
+		cwb:category="Minorities, ethnic and racial groups"
+		cwb:name="Indigenous peoples"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85090174" />
+	<cwb:subject
+		cwb:category="Minorities, ethnic and racial groups"
+		cwb:name="Indigenous peoples--Legal status, laws, etc."
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Minorities, ethnic and racial groups"
+		cwb:name="Mestizos"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh93008230" />
+	<cwb:subject
+		cwb:category="Minorities, ethnic and racial groups"
+		cwb:name="Minorities"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85085792" />
+	<cwb:subject
+		cwb:category="Minorities, ethnic and racial groups"
+		cwb:name="Minorities--Legal status, laws, etc."
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Minorities, ethnic and racial groups"
+		cwb:name="Minorities--Political activity"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85085807" />
+	<cwb:subject
+		cwb:category="Minorities, ethnic and racial groups"
+		cwb:name="Minorities--Politics and government"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Minorities, ethnic and racial groups"
+		cwb:name="Minorities--Population"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85085808" />
+	<cwb:subject
+		cwb:category="Minorities, ethnic and racial groups"
+		cwb:name="Racism"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85110266" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Administrative regulations"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85036560" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Armed Forces"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85007241" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Community organization"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85029254" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Constitutions"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85031336" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Courts"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85033571" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Decentralization in government"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85036185" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Democracy"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85036647" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Elections"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85041557" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Foreign relations"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85050519" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Government accountability"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2007008050" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Government policy"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85056091" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Guerrillas"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85057696" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="International agencies"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85067357" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="International cooperation"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85067385" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Latin America--Relations--United States; United States--Relations--Latin America"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Laws"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Local government"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85077923" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Mass media--Political aspects"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85081871" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="National security"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85090122" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Nationalism"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85090150" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Pan-Americanism"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85097311" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Paramilitary forces"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85097857" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Peace agreements"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Peace movements"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85098950" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Peace negotiations"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Policy analysis"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Political campaigns"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85041555" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Political corruption"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85033057" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Political participation"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85104370" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Political parties"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85104371" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Politics"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2002011436" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Presidents"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85106459" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Privatization"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85107058" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Protest movements"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh91005953" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Public administration"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85108611" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Public safety"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2008002399" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Revolutionaries"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85113502" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Self-determination, National"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85119735" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Social movements"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85123979" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Students--Political activity"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85129306" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Transportation"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85137027" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="Voting"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85144418" />
+	<cwb:subject
+		cwb:category="Politics and government"
+		cwb:name="War"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85145114" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Afro-Brazilian cults"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh88007804" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Afro-Caribbean cults"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh96010511" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Atheism"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85009109" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Bible"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85013576" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Catholic Church"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85021043" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Christians"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85025293" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Church and state"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85025534" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Church of England"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Cults"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85034719" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Ecumenical movement"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85040933" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Episcopal Church"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85044442" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Evangelicalism"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85045933" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Independent churches"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85064846" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Indians--Religion"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85065067" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Islam"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85068390" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Jehovah's Witnesses"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85069870" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Judaism"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85070835" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Liberation theology"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85076447" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Missionaries"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85086017" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Protestant churches"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85107712" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Religion"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85112549" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Religion and politics"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85112577" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Religious architecture"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2004000703" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Religious art"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85112607" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Religious education"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85112630" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Rites and ceremonies"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85114211" />
+	<cwb:subject
+		cwb:category="Religion"
+		cwb:name="Spiritualism"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85126775" />
+	<cwb:subject
+		cwb:category="Science and Technology"
+		cwb:name="Biotechnology"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85014263" />
+	<cwb:subject
+		cwb:category="Science and Technology"
+		cwb:name="Energy Technology"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Science and Technology"
+		cwb:name="Engineering"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85043176" />
+	<cwb:subject
+		cwb:category="Science and Technology"
+		cwb:name="Geology"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85054037" />
+	<cwb:subject
+		cwb:category="Science and Technology"
+		cwb:name="Information technology"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh87002293" />
+	<cwb:subject
+		cwb:category="Science and Technology"
+		cwb:name="Medical technology"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85083046" />
+	<cwb:subject
+		cwb:category="Science and Technology"
+		cwb:name="Military Technology"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Science and Technology"
+		cwb:name="Science and technology"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Socioeconomic conditions and development"
+		cwb:name="Community development"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85029215" />
+	<cwb:subject
+		cwb:category="Socioeconomic conditions and development"
+		cwb:name="Crime prevention"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85034011" />
+	<cwb:subject
+		cwb:category="Socioeconomic conditions and development"
+		cwb:name="Demography"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85036659" />
+	<cwb:subject
+		cwb:category="Socioeconomic conditions and development"
+		cwb:name="Drug traffic"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh88000332" />
+	<cwb:subject
+		cwb:category="Socioeconomic conditions and development"
+		cwb:name="Economic assistance"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85040767" />
+	<cwb:subject
+		cwb:category="Socioeconomic conditions and development"
+		cwb:name="Economic development projects"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85040810" />
+	<cwb:subject
+		cwb:category="Socioeconomic conditions and development"
+		cwb:name="Economic policy--Citizen participation"
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Socioeconomic conditions and development"
+		cwb:name="Globalization"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh99010179" />
+	<cwb:subject
+		cwb:category="Socioeconomic conditions and development"
+		cwb:name="Housing"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85062603" />
+	<cwb:subject
+		cwb:category="Socioeconomic conditions and development"
+		cwb:name="Hydrocarbons"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85063372" />
+	<cwb:subject
+		cwb:category="Socioeconomic conditions and development"
+		cwb:name="Infrastructure (Economics)"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85066333" />
+	<cwb:subject
+		cwb:category="Socioeconomic conditions and development"
+		cwb:name="Poverty"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85105939" />
+	<cwb:subject
+		cwb:category="Socioeconomic conditions and development"
+		cwb:name="Power resources"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85105992" />
+	<cwb:subject
+		cwb:category="Socioeconomic conditions and development"
+		cwb:name="Public safety--Social aspects"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2008002399" />
+	<cwb:subject
+		cwb:category="Socioeconomic conditions and development"
+		cwb:name="Retirement"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85113347" />
+	<cwb:subject
+		cwb:category="Socioeconomic conditions and development"
+		cwb:name="Small business"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85123568" />
+	<cwb:subject
+		cwb:category="Socioeconomic conditions and development"
+		cwb:name="Social conditions"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2001008850" />
+	<cwb:subject
+		cwb:category="Socioeconomic conditions and development"
+		cwb:name="Social justice"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85123969" />
+	<cwb:subject
+		cwb:category="Socioeconomic conditions and development"
+		cwb:name="Social policy"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85123985" />
+	<cwb:subject
+		cwb:category="Socioeconomic conditions and development"
+		cwb:name="Social policy--Citizen participation"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85104370" />
+	<cwb:subject
+		cwb:category="Socioeconomic conditions and development"
+		cwb:name="Technical assistance"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85133088" />
+	<cwb:subject
+		cwb:category="Socioeconomic conditions and development"
+		cwb:name="Violence"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85143514" />
+	<cwb:subject
+		cwb:category="Tourism"
+		cwb:name="Advertising--Tourism"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh88000359" />
+	<cwb:subject
+		cwb:category="Tourism"
+		cwb:name="Archaeological sites"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2004001339" />
+	<cwb:subject
+		cwb:category="Tourism"
+		cwb:name="Guidebooks"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85057716" />
+	<cwb:subject
+		cwb:category="Tourism"
+		cwb:name="Hotels and motels"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85062487" />
+	<cwb:subject
+		cwb:category="Tourism"
+		cwb:name="Monuments"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85087089" />
+	<cwb:subject
+		cwb:category="Tourism"
+		cwb:name="Tourism"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85136255" />
+	<cwb:subject
+		cwb:category="Tourism"
+		cwb:name="Tourism and art"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85136266" />
+	<cwb:subject
+		cwb:category="Tourism"
+		cwb:name="Tourism and gastronomy"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2003000021" />
+	<cwb:subject
+		cwb:category="Tourism"
+		cwb:name="Tourism--Economic aspects"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85136255" />
+	<cwb:subject
+		cwb:category="Tourism"
+		cwb:name="Tourism--Social aspects"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2008112808" />
+	<cwb:subject
+		cwb:category="Tourism"
+		cwb:name="Tourist camps, hostels, etc."
+		cwb:uri="" />
+	<cwb:subject
+		cwb:category="Tourism"
+		cwb:name="Tourist maps"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85080873" />
+	<cwb:subject
+		cwb:category="Urban issues"
+		cwb:name="Cities"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85026130" />
+	<cwb:subject
+		cwb:category="Urban issues"
+		cwb:name="City planning"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85026282" />
+	<cwb:subject
+		cwb:category="Urban issues"
+		cwb:name="Crime"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85033993" />
+	<cwb:subject
+		cwb:category="Urban issues"
+		cwb:name="Housing policy"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85062639" />
+	<cwb:subject
+		cwb:category="Urban issues"
+		cwb:name="Land use, urban"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85074353" />
+	<cwb:subject
+		cwb:category="Urban issues"
+		cwb:name="Public works"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85108858" />
+	<cwb:subject
+		cwb:category="Urban issues"
+		cwb:name="Real estate business"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85111712" />
+	<cwb:subject
+		cwb:category="Urban issues"
+		cwb:name="Squatter settlements"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85127101" />
+	<cwb:subject
+		cwb:category="Urban issues"
+		cwb:name="Urban population"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh96010384" />
+	<cwb:subject
+		cwb:category="Urban issues"
+		cwb:name="Urban renewal"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85141324" />
+	<cwb:subject
+		cwb:category="Urban issues"
+		cwb:name="Urban transportation"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85141331" />
+	<cwb:subject
+		cwb:category="Urban issues"
+		cwb:name="Urban violence"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh2002002042" />
+	<cwb:subject
+		cwb:category="Urban issues"
+		cwb:name="Urban-rural migration"
+		cwb:uri="http://id.loc.gov/authorities/subjects/sh85141328" />
 </cwb:data>
