@@ -1,0 +1,3 @@
+[submodule "xsltforms"]
+	path = xsltforms
+	url = https://github.com/AlainCouthures/xsltforms.git
