@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <subject>
+        <type>http://www.loc.gov/mads/rdf/v1#TopicElement</type>
+        <val>French language</val>
+    </subject>
+    <subject>
+        <type>http://www.loc.gov/mads/rdf/v1#TopicElement</type>
+        <val>Social aspects</val>
+    </subject>
+    <subject>
+        <type>http://www.loc.gov/mads/rdf/v1#GeographicElement</type>
+        <val>Europe.</val>
+    </subject>
+</data>

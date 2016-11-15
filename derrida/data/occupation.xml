@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+    <head>
+        <variable name="creator2"/>
+        <variable name="viaf"/>
+        <variable name="cLabel"/>
+        <variable name="oLabel"/>
+    </head>
+    <results>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q192066</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>108266369</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Paul Ricœur</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">professor</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q6230818</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>108283355</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">John E. Llewelyn</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">philosopher</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q138850</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>66473364</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Gershom Scholem</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">university teacher</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q4132725</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>66483274</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">J. Hillis Miller</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">university teacher</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q76357</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>108179854</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Jürgen Habermas</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">philosopher</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q156268</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>71387829</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Pierre Bourdieu</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">essayist</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q1598288</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>71434467</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Heinrich Meier</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">philosopher</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q153034</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>108203818</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Emmanuel Levinas</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">philosopher</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q184169</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>24596917</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Louis Althusser</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">philosopher</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q76357</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>108179854</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Jürgen Habermas</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">sociologist</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q215494</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>54349072</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Stéphane Mosès</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">philosopher</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q138850</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>66473364</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Gershom Scholem</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">educationist</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q3103087</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>92049796</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Georges Leroux</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">writer</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q1598288</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>71434467</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Heinrich Meier</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">university teacher</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q153034</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>108203818</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Emmanuel Levinas</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">university teacher</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q21192312</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>73856340</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Claire Lejeune</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">writer</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q184169</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>24596917</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Louis Althusser</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">university teacher</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q156268</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>71387829</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Pierre Bourdieu</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">sociologist</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q994115</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>85274456</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Michel Deguy</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">poet</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q156268</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>71387829</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Pierre Bourdieu</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">philosopher</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q215258</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>89085824</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Richard Rorty</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">writer</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q153034</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>108203818</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Emmanuel Levinas</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">ethicist</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q994115</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>85274456</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Michel Deguy</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">university teacher</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q156268</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>71387829</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Pierre Bourdieu</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">anthropologist</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q138850</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>66473364</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Gershom Scholem</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">philosopher</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q76357</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>108179854</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Jürgen Habermas</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">university teacher</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q4132725</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>66483274</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">J. Hillis Miller</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">writer</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q138850</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>66473364</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Gershom Scholem</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">writer</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q156268</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>71387829</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Pierre Bourdieu</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">writer</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q215258</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>89085824</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Richard Rorty</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">philosopher</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q215494</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>54349072</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Stéphane Mosès</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">specialist in literature</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q156268</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>71387829</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Pierre Bourdieu</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">publisher</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q184169</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>24596917</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Louis Althusser</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">politician</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q4132725</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>66483274</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">J. Hillis Miller</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">literary critic</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q6766958</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>108639325</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Mark C. Taylor</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">philosopher</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q156268</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>71387829</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Pierre Bourdieu</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">professor</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q3035238</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>110488406</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Dominique Janicaud</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">philosopher</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q138850</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>66473364</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Gershom Scholem</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">librarian</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q138850</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>66473364</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Gershom Scholem</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">historian</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q215494</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>54349072</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Stéphane Mosès</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">germanist</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q215258</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>89085824</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Richard Rorty</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">educationist</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q192066</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>108266369</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Paul Ricœur</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">philosopher</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q3103087</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>92049796</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Georges Leroux</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">university teacher</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q153034</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>108203818</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Emmanuel Levinas</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">writer</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q215258</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>89085824</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Richard Rorty</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">university teacher</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q994115</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>85274456</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Michel Deguy</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">editor-in-chief</literal>
+            </binding>
+        </result>
+        <result>
+            <binding name="creator2">
+                <uri>http://www.wikidata.org/entity/Q215494</uri>
+            </binding>
+            <binding name="viaf">
+                <literal>54349072</literal>
+            </binding>
+            <binding name="cLabel">
+                <literal xml:lang="en">Stéphane Mosès</literal>
+            </binding>
+            <binding name="oLabel">
+                <literal xml:lang="en">translator</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

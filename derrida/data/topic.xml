@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<span about="http://bibfram.es/derrida/resource/bf/fFp1461696389/ocn829460585topic53" typeof="http://id.loc.gov/ontologies/bibframe/Topic">
+    <span rel="http://id.loc.gov/ontologies/bibframe/hasAuthority" resource="_:ffaf4b51a0d2e4b783372603dd0ba46d" typeof="http://www.loc.gov/mads/rdf/v1#ComplexSubject http://www.loc.gov/mads/rdf/v1#Authority">
+        <span rel="http://www.loc.gov/mads/rdf/v1#componentList" resource="_:-6bedb55a:1554e4bc5df:-7c88">
+            <span rel="http://www.w3.org/1999/02/22-rdf-syntax-ns#first" resource="_:fdbfc7081dd22b143d2a99b0be6adbc8" typeof="http://www.loc.gov/mads/rdf/v1#Authority http://www.loc.gov/mads/rdf/v1#Topic">
+                <span rel="http://www.loc.gov/mads/rdf/v1#elementList" resource="_:-6bedb55a:1554e4bc5df:-7c34">
+                    <span rel="http://www.w3.org/1999/02/22-rdf-syntax-ns#first" resource="_:d8550c2ec7d98fd8073a8fdff876d268" typeof="http://www.loc.gov/mads/rdf/v1#TopicElement">
+                        <span property="http://www.loc.gov/mads/rdf/v1#elementValue" datatype="http://www.w3.org/2001/XMLSchema#string">French language</span>
+                    </span>
+                    <span rel="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </span>
+                <span property="http://www.loc.gov/mads/rdf/v1#authoritativeLabel" datatype="http://www.w3.org/2001/XMLSchema#string">French language</span>
+            </span>
+            <span rel="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" resource="_:-6bedb55a:1554e4bc5df:-7c87">
+                <span rel="http://www.w3.org/1999/02/22-rdf-syntax-ns#first" resource="_:3415e20a3d3b6db6228f74be3d79dacd" typeof="http://www.loc.gov/mads/rdf/v1#Authority http://www.loc.gov/mads/rdf/v1#Topic">
+                    <span rel="http://www.loc.gov/mads/rdf/v1#elementList" resource="_:-6bedb55a:1554e4bc5df:-7b85">
+                        <span rel="http://www.w3.org/1999/02/22-rdf-syntax-ns#first" resource="_:83c48f0771940689ef6cce1113d9e08d" typeof="http://www.loc.gov/mads/rdf/v1#TopicElement">
+                            <span property="http://www.loc.gov/mads/rdf/v1#elementValue" datatype="http://www.w3.org/2001/XMLSchema#string">Social aspects</span>
+                        </span>
+                        <span rel="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </span>
+                    <span property="http://www.loc.gov/mads/rdf/v1#authoritativeLabel" datatype="http://www.w3.org/2001/XMLSchema#string">Social aspects</span>
+                </span>
+                <span rel="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" resource="_:-6bedb55a:1554e4bc5df:-7c86">
+                    <span rel="http://www.w3.org/1999/02/22-rdf-syntax-ns#first" resource="_:52b8ae0465cd43f3fd8f453a486497e2" typeof="http://www.loc.gov/mads/rdf/v1#Geographic http://www.loc.gov/mads/rdf/v1#Authority">
+                        <span rel="http://www.loc.gov/mads/rdf/v1#elementList" resource="_:-6bedb55a:1554e4bc5df:-7c3a">
+                            <span rel="http://www.w3.org/1999/02/22-rdf-syntax-ns#first" resource="_:1c6d2ca1b50eadfb785de35a212e698f" typeof="http://www.loc.gov/mads/rdf/v1#GeographicElement">
+                                <span property="http://www.loc.gov/mads/rdf/v1#elementValue" datatype="http://www.w3.org/2001/XMLSchema#string">Europe.</span>
+                            </span>
+                            <span rel="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                        </span>
+                        <span property="http://www.loc.gov/mads/rdf/v1#authoritativeLabel" datatype="http://www.w3.org/2001/XMLSchema#string">Europe</span>
+                    </span>
+                    <span rel="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </span>
+            </span>
+        </span>
+        <span property="http://www.loc.gov/mads/rdf/v1#authoritativeLabel" datatype="http://www.w3.org/2001/XMLSchema#string">French language--Social aspects--Europe</span>
+        <span rel="http://www.loc.gov/mads/rdf/v1#isMemberOfMADSScheme" resource="http://id.loc.gov/authorities/subjects"/>
+    </span>
+    <span property="http://id.loc.gov/ontologies/bibframe/label" datatype="http://www.w3.org/2001/XMLSchema#string">French language--Social aspects--Europe</span>
+    <span property="http://id.loc.gov/ontologies/bibframe/authorizedAccessPoint" datatype="http://www.w3.org/2001/XMLSchema#string">French language--Social aspects--Europe</span>
+</span>

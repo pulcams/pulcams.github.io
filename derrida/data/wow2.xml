@@ -1,0 +1,384 @@
+<?xml-stylesheet href="../static/xsltforms/build/xsltforms.xsl" type="text/xsl"?>
+<!--<?xsltforms-options domengine="name=Fleur;url=/xsltforms/js/fleur.js;uri=http://www.agencexml.com/Fleur;version=1.0"?>-->
+<?xsltforms-options debug="no"?>
+<?css-conversion no?>
+<?xml-model href="http://www.oxygenxml.com/1999/xhtml/xhtml-xforms.nvdl" 
+    schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:bf="http://loc.gov/bibframe/vocab#" xmlns:cwb="http://bibfram.es/cwb/"
+    xmlns:ds="http://data-semantics.github.io/"
+    xmlns:dbo="http://dbpedia.org/ontology/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:marc="http://www.loc.gov/MARC21/slim"
+    xmlns:oa="http://www.w3.org/ns/oa#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:sr="http://www.w3.org/2005/sparql-results#"
+    xmlns:xf="http://www.w3.org/2002/xforms"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    prefix="dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/"
+    rdf:firefox="true" dbo:firefox="true" sr:firefox="true">
+    <head prefix="og: http://ogp.me/ns#"
+        typeof="http://xmlns.com/foaf/0.1/Document http://www.w3.org/2006/gen/ont#InformationResource">
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta property="dc:title" content="Data Semantics S2016: Assignment 5" />
+        <meta property="og:title" content="Data Semantics S2016: Assignment 5" />
+        <meta property="dc:alternative"
+            content="A (brief) Web page about the French philosopher Jacques Derrida" />
+        <meta property="dc:creator" content="Tim Thompson" />
+        <title>Data Semantics S2016: Assignment 5</title>
+        <link rel="alternate" type="application/rdf+xml" href="derrida.rdf" />
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+        <!-- Optional theme -->
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" />
+        <style type="text/css">
+            <![CDATA[
+            #wrapper{
+                width: 80%;
+                height: auto;
+                min-height: 1000px;
+                margin-top: 1%;
+                margin-right: auto;
+                margin-left: auto;
+                margin-bottom: 2%;
+                background-color: #C0C0C0;
+            }
+            .xforms-label{
+                width: 15%;
+                float: left;
+            }
+            .checkbox{
+                list-style-type: none;
+            }
+            #group-people{
+                width: 50%;
+                float: left;
+            }
+            #group-tasks{
+                width: 50%;
+                float: left;
+            }]]>
+        </style>
+        <xf:model id="default-model">
+            <xf:instance id="sparql-1">
+                <data xmlns="">
+                    <query>
+<![CDATA[
+PREFIX bf: <http://loc.gov/bibframe/vocab#>
+PREFIX dcterms: <http://purl.org/dc/terms/>                        
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>                      
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+construct {<http://dbpedia.org/resource/Jacques_Derrida> dbo:abstract ?o} 
+where {
+    <http://dbpedia.org/resource/Jacques_Derrida> dbo:abstract ?o .
+    filter(lang(?o) = "en")
+}
+limit 100                      
+]]>
+                    </query>
+                </data>
+            </xf:instance>
+            <xf:instance id="sparql-2">
+                <data xmlns="">
+                    <query>
+<![CDATA[
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bf: <http://bibframe.org/vocab/>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?creator2 ?cLabel ?oLabel 
+WHERE 
+{
+  {
+    ?anno dcterms:creator ?creator .
+    #?creator skos:prefLabel ?label .
+    FILTER(?creator != <http://library.princeton.edu>)
+    BIND(substr(str(?creator), 22) AS ?viaf)
+  }  
+  {
+    SERVICE <https://query.wikidata.org/sparql>
+    {
+      ?creator2 wdt:P214 ?viaf .
+      ?creator2 rdfs:label ?cLabel .
+      #?creator2 a <http://dbpedia.org/class/yago/LiteraryCritic110266016> . # <http://dbpedia.org/ontology/Philosopher>       
+      ?creator2 wdt:P106 ?o .   
+      ?o rdfs:label ?oLabel .
+      FILTER(lang(?cLabel) = "en")
+      FILTER(lang(?oLabel) = "en")
+      
+    }    
+  }
+} 
+GROUP BY ?oCount ?creator2 ?cLabel ?oLabel
+#ORDER BY DESC(?oCount) ?oLabel ?cLabel
+]]>
+                    </query>
+                </data>
+            </xf:instance>
+            
+            <xf:instance id="sparql-3">
+                <data xmlns="">
+                    <query>
+<![CDATA[
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bf: <http://bibframe.org/vocab/>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX oa: <http://www.w3.org/ns/oa#>
+
+SELECT ?anno ?creator2 ?cLabel ?text ?prefix ?suffix ?exact ?source
+WHERE 
+{
+  {
+    ?anno dcterms:creator ?creator .
+    #?creator skos:prefLabel ?label 
+    ?anno oa:hasBody ?body .
+    ?body oa:text ?text .
+    ?meta oa:hasTarget ?target .
+    ?meta oa:hasBody ?metaBody .
+    ?metaBody oa:hasSource ?source .
+    ?target oa:hasSource ?anno .
+    ?target oa:hasSelector ?select .
+    ?select oa:prefix ?prefix .
+    ?select oa:suffix ?suffix .
+    ?select oa:exact ?exact .
+    FILTER(?creator != <http://library.princeton.edu>)
+    BIND(substr(str(?creator), 22) AS ?viaf)
+  }  
+  {
+    SERVICE <https://query.wikidata.org/sparql>
+    {
+      ?creator2 wdt:P214 ?viaf .
+      ?creator2 rdfs:label ?cLabel .
+      #?creator2 a <http://dbpedia.org/class/yago/LiteraryCritic110266016> . # <http://dbpedia.org/ontology/Philosopher>       
+      #?creator2 wdt:P106 ?o .   
+      #?o rdfs:label ?oLabel .
+      FILTER(lang(?cLabel) = "en")
+      #FILTER(lang(?oLabel) = "en")
+    }    
+  }
+} 
+#GROUP BY ?oCount ?creator2 ?cLabel ?oLabel
+#ORDER BY DESC(?oCount) ?oLabel ?cLabel
+]]>
+                    </query>
+                </data>
+            </xf:instance>
+            
+            <xf:instance id="graph">
+                <data xmlns="">
+                    <results></results>
+                </data>
+            </xf:instance>
+            
+            <xf:instance id="tags">
+                <data xmlns="">
+                    <tags></tags>
+                </data>
+            </xf:instance>
+            
+            <xf:instance id="tag-template">
+                <data xmlns="">
+                    <tag index="">
+                        <name></name>
+                        <prefix></prefix>
+                        <suffix></suffix>
+                    </tag>                    
+                </data>
+            </xf:instance>
+
+            <xf:submission encoding="UTF-8" id="sparql-query-3" method="get"
+                ref="instance('sparql-3')/*" replace="instance"
+                resource="http://localhost:3030/derrida/query"
+                serialization="application/x-www-form-urlencoded"
+                instance="graph" targetref="results">
+                <xf:header>
+                    <xf:name>Accept</xf:name>
+                    <xf:value>application/rdf+xml</xf:value>
+                </xf:header>
+                <xf:action ev:event="xforms-submit-error">
+                    <xf:message ev:event="xforms-submit-error" level="modal">
+                        Submission failed (<xf:output value="event('response-status-code')"/>)</xf:message>
+                </xf:action>
+                <xf:action ev:event="xforms-submit-done" iterate="instance('graph')/*/*/*">
+                    <!--<xf:message ev:event="modal"> Success (<xf:output value="event('response-status-code')"/>) </xf:message>-->                    
+                    
+                    <xf:insert context="instance('tags')/tags" origin="instance('tag-template')/tag"/>     
+                    
+                    <xf:action iterate="context()">
+                        <xf:setvalue ref="instance('tags')/tags/tag/name" value="context()/sr:binding[@name = 'exact']/sr:literal"/>    
+                    </xf:action>
+                    
+                    
+                    
+                </xf:action>
+                
+            </xf:submission>
+            <xf:action ev:event="xforms-model-construct-done">
+                <xf:send submission="sparql-query-3"/>
+            </xf:action>
+        </xf:model>
+    </head>
+    <body
+        prefix="bf: http://loc.gov/bibframe/vocab# cc: http://creativecommons.org/ns# dcterms: http://purl.org/dc/terms/ oa: http://www.w3.org/ns/oa# owl: http://www.w3.org/2002/07/owl# rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# schema: http://schema.org/ skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+        <div id="wrapper" class="container">
+            <h1>Data Semantics S2016: Assignment 5 (Linked Open Data)</h1>
+            <div id="byline"> By: <a
+                    href="http://data-semantics.github.io/id/tim"
+                    rel="foaf:maker">Tim Thompson</a>
+            </div>
+            <br />
+            <xf:group id="content">
+                <span property="foaf:primaryTopic"
+                    resource="http://viaf.org/viaf/88958529"></span>
+                <p style="font-style: italic;">This webpage demonstrates some
+                    basic features of Linked Open Data. It uses SPARQL to
+                    retrieve a brief biography from DBpedia, and it contains
+                    embedded RDFa markup as well as a link to an RDF/XML
+                    representation of the data. <code>owl:sameAs</code> has been
+                    used to create additional linkages.</p>
+                <div about="http://viaf.org/viaf/88958529">
+                    <h2 style="text-align:center;" property="foaf:name">Jacques
+                        Derrida</h2>
+                    <div
+                        style="width: 250px; height: 289px; margin-left: auto; margin-right: auto;"
+                        property="foaf:depiction"
+                        resource="https://upload.wikimedia.org/wikipedia/commons/9/99/Derrida-by-Pablo-Secca.jpg"
+                        typeof="foaf:Image">
+                        <a
+                            title="By Pablosecca (Own work) [CC BY 3.0 (http://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons"
+                            href="https://commons.wikimedia.org/wiki/File%3ADerrida-by-Pablo-Secca.jpg">
+                            <img alt="Derrida-by-Pablo-Secca"
+                                src="https://upload.wikimedia.org/wikipedia/commons/9/99/Derrida-by-Pablo-Secca.jpg"
+                                rev="rdfs:seeAlso" />
+                        </a>
+                    </div>
+                    <div style="text-align:center; margin-bottom: 1%;"
+                        rel="owl:sameAs">
+                        <span style="text-align:center;"
+                            resource="http://dbpedia.org/resource/Jacques_Derrida">
+                            <a
+                                href="http://dbpedia.org/resource/Jacques_Derrida"
+                                >Derrida in DBPedia</a>
+                        </span>
+                        <span style="text-align:center;"> | </span>
+                        <span style="text-align:center;"
+                            resource="https://www.wikidata.org/wiki/Q130631">
+                            <a href="https://www.wikidata.org/wiki/Q130631"
+                                >Derrida in Wikidata</a>
+                        </span>
+                    </div>
+                    <xf:var name="results"
+                        value="instance('graph')/sr:sparql/sr:results"/>
+                    <xf:var name="o"
+                        value="distinct-values($results/sr:result/sr:binding[@name = 'oLabel']/sr:literal)"/>
+                    
+                    
+                    <!--<div id="facets">
+                        <div id="philosophers">
+                            <h3>Occupations</h3>
+                            <!-\-<xf:repeat ref="$o">
+                                <p>
+                                    <xf:output value="."/>
+                                </p>
+                            </xf:repeat>  -\->
+                        </div>
+                    </div>
+
+                    <xf:repeat ref="$o">
+                        <p>
+                            <xf:output value="."/>                            
+                            <xf:output
+                                value="concat(' (', count(distinct-values(../../../sr:result[sr:binding[@name = 'oLabel']/sr:literal = context()])), ')')"/>
+                            <xf:repeat
+                                ref="distinct-values(../../../sr:result[sr:binding[@name = 'oLabel']/sr:literal = context()]/sr:binding[@name = 'cLabel']/sr:literal)">
+                                <xf:output value="."/>
+                            </xf:repeat>
+                        </p>
+                    </xf:repeat>-->
+                    
+                    <xf:var name="anno" value="distinct-values($results/sr:result/sr:binding[@name = 'anno']/sr:uri)"/>
+                    
+                    
+                    <xf:repeat ref="$anno" id="r-anno">
+                        <xf:var name="context" value="context()"/>
+                        <!--<xf:var name="text" value="sr:binding[@name = 'text']/sr:literal"/>
+                        <xf:var name="exact" value="sr:binding[@name = 'exact']/sr:literal"/>                        
+                        <xf:var name="source" value="sr:binding[@name = 'source']/sr:uri"/>
+                        <p>
+                            <xf:output value="substring-before($text, $exact)"/>
+                            <a href="{$source}">
+                                <xf:output value="sr:binding[@name = 'exact']/sr:literal"/>    
+                            </a>
+                            <xf:output value="substring-after($text, $exact)"/>
+                        </p>-->
+                        
+                        <!--<xf:repeat ref="distinct-values(../../../sr:result[sr:binding[@name = 'anno']/sr:uri = context()]/sr:binding[@name = 'text']/sr:literal)">
+                            <xf:var name="text" value="sr:binding[@name = 'text']/sr:literal"/>
+                            <xf:var name="exact" value="sr:binding[@name = 'exact']/sr:literal"/>
+                            <xf:var name="source" value="../../../sr:result[sr:binding[@name = 'anno']/sr:uri = $context]/sr:binding[@name = 'source']/sr:uri"/>
+                            
+                                <xf:output value="$source"/>
+                            
+                            <p>
+                                    
+                            </p>
+                            
+                            
+                        </xf:repeat>-->
+                        <xf:var name="text" value="distinct-values(../../../sr:result[sr:binding[@name = 'anno']/sr:uri = context()]/sr:binding[@name = 'text']/sr:literal)"/>
+                        <xf:var name="source" value="distinct-values(../../../sr:result[sr:binding[@name = 'anno']/sr:uri = context()]/sr:binding[@name = 'source']/sr:uri)"/>
+                        <xf:var name="exact" value="distinct-values(../../../sr:result[sr:binding[@name = 'anno']/sr:uri = context()]/sr:binding[@name = 'exact']/sr:literal)"/>
+                        
+                        
+                        
+                        
+                        <hr/>
+                    </xf:repeat>
+                    
+
+
+
+                    
+
+
+
+
+
+
+
+                </div>
+            </xf:group>
+            <xf:group id="notice"> </xf:group>
+        </div>
+        <!-- Latest compiled and minified JavaScript -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </body>
+</html>

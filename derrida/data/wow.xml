@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data [
+    <!ENTITY bf "http://id.loc.gov/ontologies/bibframe/">
+    <!ENTITY ex "http://example.org/">
+    <!ENTITY mads "http://www.loc.gov/mads/rdf/v1#">
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#">        
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <!ENTITY dctypes "http://purl.org/dc/dcmitype/">
+	<!ENTITY oa "http://www.w3.org/ns/oa#">
+	<!ENTITY rdau "http://rdaregistry.info/Elements/u/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">	
+	<!ENTITY inst "key('resourceKey', $work, $input)[@rel eq '&bf;instanceOf']">
+	<!ENTITY item1 "[@rel eq '&bf;itemOf']/..">
+	<!ENTITY item2 "key('resourceKey', &inst;/../@about, $input)">
+	<!ENTITY item3 "key('resourceKey', &item2;/../@about, $input)&item1;">
+	<!ENTITY wt "[span[@rel eq '&bf;workTitle']][local:match-work(@about)]">
+]>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:local="http://example.org/" exclude-result-prefixes="xs" version="2.0">
+
+    <xsl:output indent="yes"/>
+
+    <xsl:key name="aboutKey" match="span" use="@about"/>
+    <xsl:key name="relKey" match="span" use="@rel"/>
+    <xsl:key name="propertyKey" match="span" use="@property"/>
+    <xsl:key name="typeofKey" match="span" use="@typeof"/>
+    <xsl:key name="resourceKey" match="span" use="@resource"/>
+
+    <xsl:variable name="input" select="."/>
+
+    <xsl:function name="local:get-title" as="item()*">
+        <xsl:param name="predicate" as="element()*"/>
+        <title>
+            <xsl:value-of
+                select="
+                    key('aboutKey', $predicate/@resource, $input)/
+                    (if (not(span[@property eq '&bf;label'])) then
+                        span[@property eq '&bf;titleValue']
+                    else
+                        span[@property eq '&bf;label'])"
+            />
+        </title>
+    </xsl:function>
+
+    <xsl:function name="local:match-work" as="item()*">
+        <xsl:param name="work" as="xs:string"/>
+        <work>
+            <xsl:sequence select="&item3;"/>
+        </work>
+    </xsl:function>
+
+    <xsl:template match="/span[@data-graph]">
+        <root>
+            <xsl:apply-templates/>
+        </root>
+    </xsl:template>
+
+    <xsl:template
+        match="*[contains(@typeof, '&bf;Work')]&wt;">
+
+        <xsl:sequence select="local:get-title(span[@rel eq '&bf;workTitle'])"/>
+
+
+
+    </xsl:template>
+
+    <xsl:template match="@* | node()"/>
+
+</xsl:stylesheet>
