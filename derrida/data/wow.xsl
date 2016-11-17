@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE xsl:stylesheet [
+ <!DOCTYPE xsl:stylesheet [
     <!ENTITY bf "http://id.loc.gov/ontologies/bibframe/">
     <!ENTITY ex "http://example.org/">
     <!ENTITY mads "http://www.loc.gov/mads/rdf/v1#">
