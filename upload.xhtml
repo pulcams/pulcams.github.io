@@ -20,10 +20,10 @@
                     </upload>
                 </data>
             </xf:instance>
-            <xf:submission id="upload-file" method="multipart-post"
+            <xf:submission id="upload-file" method="post"
                 mode="asynchronous"
                 ref="instance('file-upload')/upload/fileToConvert/text()"
-                serialization="multipart/related"
+                serialization="text/xml"
                 replace="text" targetref="instance('result')/result"
                 resource="http://cors-anywhere.herokuapp.com/http://www.tei-c.org/ege-webservice//Conversions/TEI%3Atext%3Axml/txt%3Atext%3Aplain" 
             />
