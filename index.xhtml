@@ -62,13 +62,6 @@ ORDER BY ?p
 					</cwb:result>
 				</cwb:data>
 			</xf:instance>
-			<xf:instance
-				id="var-test">
-				<cwb:data>
-					<cwb:value>new XForms variable</cwb:value>
-					<cwb:value></cwb:value>
-				</cwb:data>
-			</xf:instance>
 			<xf:submission
 				cdata-section-elements=""
 				encoding="UTF-8"
@@ -97,39 +90,7 @@ ORDER BY ?p
 				<h1
 					about="http://example.org/cwb"
 					property="bf:title">Cataloger's Workbench sandbox</h1>
-			</div>
-			<div
-				id="col2">
-				<h3>XSLTForms <pre class="inline">xf:var</pre> element</h3>
-				<!-- Declare XForms variable and set initial value -->
-				<xf:var
-					name="testVar"
-					value="instance('var-test')/cwb:value"></xf:var>
-				<!-- Output variable -->
-				<xf:output
-					value="concat('$testVar = ', $testVar)"></xf:output>
-				<br />
-				<br />
-				<xf:input
-					incremental="true"
-					ref="instance('var-test')/cwb:value">
-					<xf:label>Update value </xf:label>
-				</xf:input>
-				<br />
-				<br />
-				<xf:trigger
-					ref="instance('var-test')/cwb:value">
-					<xf:label>Reset</xf:label>
-					<xf:action
-						ev:event="DOMActivate">
-						<!-- Reset variable -->
-						<xf:var
-							name="testVar"
-							value="''"></xf:var>
-						<xf:setvalue ref="instance('var-test')/cwb:value" value="$testVar"></xf:setvalue>
-					</xf:action>
-				</xf:trigger>
-			</div>
+			</div>			
 			<div
 				id="col1">
 				<div
